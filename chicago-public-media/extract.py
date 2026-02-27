@@ -184,12 +184,21 @@ def main():
         type=Path,
         help="State file for resuming interrupted runs (default: .extract_state.json).",
     )
+    parser.add_argument(
+        "--limit",
+        default=None,
+        type=int,
+        help="Only process the first N articles (useful for testing).",
+    )
     args = parser.parse_args()
 
     if not args.input.exists():
         console.print(f"[red]Error: input file not found: {args.input}[/red]")
         console.print("  Run classify.py first to generate the classified articles file.")
         sys.exit(1)
+
+    if args.limit is not None:
+        args.output = args.output.with_stem(args.output.stem + "_test")
 
     console.print("[bold]Stage 2: Extraction[/bold]")
     console.print(f"  Input    : {args.input}")
@@ -202,6 +211,10 @@ def main():
         data = json.load(f)
     articles = data.get("articles", [])
     console.print(f"  Loaded {len(articles)} classified articles.")
+
+    if args.limit is not None:
+        articles = articles[: args.limit]
+        console.print(f"  [cyan]Limiting to first {len(articles)} articles (--limit).[/cyan]")
 
     if not articles:
         console.print("[yellow]No articles to process. Exiting.[/yellow]")

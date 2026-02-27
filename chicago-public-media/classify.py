@@ -178,7 +178,16 @@ def main():
         type=Path,
         help="State file for resuming interrupted runs (default: .classify_state.json).",
     )
+    parser.add_argument(
+        "--limit",
+        default=None,
+        type=int,
+        help="Only process the first N articles (useful for testing).",
+    )
     args = parser.parse_args()
+
+    if args.limit is not None:
+        args.output = args.output.with_stem(args.output.stem + "_test")
 
     console.print(f"[bold]Stage 1: Classification[/bold]")
     console.print(f"  Model    : {args.model}")
@@ -203,6 +212,10 @@ def main():
             console.print(f"[red]Error fetching articles from GitHub: {exc}[/red]")
             sys.exit(1)
     console.print(f"  Found {len(articles)} total articles across all date folders.")
+
+    if args.limit is not None:
+        articles = articles[: args.limit]
+        console.print(f"  [cyan]Limiting to first {len(articles)} articles (--limit).[/cyan]")
     console.print()
 
     # Load state (already-classified article IDs)

@@ -125,6 +125,23 @@ wheels = [
 ]
 
 [[package]]
+name = "groq"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "anyio" },
+    { name = "distro" },
+    { name = "httpx" },
+    { name = "pydantic" },
+    { name = "sniffio" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3f/12/f4099a141677fcd2ed79dcc1fcec431e60c52e0e90c9c5d935f0ffaf8c0e/groq-1.0.0.tar.gz", hash = "sha256:66cb7bb729e6eb644daac7ce8efe945e99e4eb33657f733ee6f13059ef0c25a9", size = 146068 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4a/88/3175759d2ef30406ea721f4d837bfa1ba4339fde3b81ba8c5640a96ed231/groq-1.0.0-py3-none-any.whl", hash = "sha256:6e22bf92ffad988f01d2d4df7729add66b8fd5dbfb2154b5bbf3af245b72c731", size = 138292 },
+]
+
+[[package]]
 name = "h11"
 version = "0.16.0"
 source = { registry = "https://pypi.org/simple" }
@@ -307,6 +324,19 @@ wheels = [
 ]
 
 [[package]]
+name = "llm-groq"
+version = "0.9"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "groq" },
+    { name = "llm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/2e/af/fdff701304eb46b4341f88b8ada16abe41f16f4f754f072ccbd7eb5b66e8/llm_groq-0.9.tar.gz", hash = "sha256:600fef79d749a431a9ad0fc3f986b68629dd30ccdc61ba0d1ce77b33aa749d07", size = 9587 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8e/c1/457ae46e77f8a2d42692b92d128378074d4630c113825c238fd38bb3225e/llm_groq-0.9-py3-none-any.whl", hash = "sha256:aaec60d121f29bba5612f5c5f2fe26895e42bc7e27f95c27548eed0bf4ee0be5", size = 10085 },
+]
+
+[[package]]
 name = "llm-ollama"
 version = "0.15.1"
 source = { registry = "https://pypi.org/simple" }
@@ -349,6 +379,7 @@ dependencies = [
     { name = "beautifulsoup4" },
     { name = "llm" },
     { name = "llm-anthropic" },
+    { name = "llm-groq" },
     { name = "llm-ollama" },
     { name = "rich" },
 ]
@@ -358,6 +389,7 @@ requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.12" },
     { name = "llm", specifier = ">=0.18" },
     { name = "llm-anthropic" },
+    { name = "llm-groq" },
     { name = "llm-ollama" },
     { name = "rich", specifier = ">=13.0" },
 ]
