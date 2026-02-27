@@ -7,7 +7,7 @@ with inline citations linking to the original articles.
 Usage:
     uv run python guide.py \\
         --input extracted_articles.json \\
-        [--model claude-opus-4.6] \\
+        [--model claude-sonnet-4.6] \\
         [--output chicago_local_gov_guide.md]
 
 Requires ANTHROPIC_API_KEY environment variable or:
@@ -57,7 +57,7 @@ You are a reporter, not a commentator. State what happened. Let readers draw the
 </writing_style>
 """
 
-GUIDE_PROMPT_TEMPLATE = """Below is a corpus of Chicago Sun-Times articles about local government published in early 2026.
+GUIDE_PROMPT_TEMPLATE = """Below is a collection of Chicago Sun-Times articles about local government published in early 2026.
 Each article includes an AI-generated summary, key people, organizations, locations, issues, and a URL.
 
 Using this corpus, write a comprehensive beat guide for a reporter new to covering Chicago local government.
@@ -77,7 +77,7 @@ Cover 4-6 of the most significant policy issues appearing in the corpus. For eac
 - What questions remain unanswered or unresolved
 
 ## Key People to Know
-Profile 8-12 recurring figures from the corpus: their official role, their political position,
+Profile 5-6 recurring figures from the corpus: their official role, their political position,
 their agenda, and why a reporter needs to track them. Be specific — not just "an alderman"
 but "the 47th Ward alderman who is blocking the mayor's zoning package."
 
@@ -148,8 +148,8 @@ def main():
     )
     parser.add_argument(
         "--model",
-        default="claude-opus-4.6",
-        help="Claude model to use (default: claude-sonnet-4-6).",
+        default="claude-sonnet-4.6",
+        help="Claude model to use (default: claude-sonnet-4.6).",
     )
     parser.add_argument(
         "--output",
@@ -216,7 +216,7 @@ def main():
     console.print()
 
     try:
-        response = model.prompt(guide_prompt, system=SYSTEM_PROMPT)
+        response = model.prompt(guide_prompt, system=SYSTEM_PROMPT, max_tokens=16000)
         guide_body = response.text()
     except Exception as exc:
         console.print(f"[red]Error generating guide: {exc}[/red]")
