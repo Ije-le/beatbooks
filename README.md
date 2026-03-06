@@ -24,12 +24,12 @@ Supports resuming interrupted runs via a state file.
 
 ```bash
 # Pull articles from GitHub and classify
-uv run python chicago-public-media/classify.py --model llama3.2
+uv run python chicago-public-media/classify.py --model qwen3.5:35b
 
 # Or use a local checkout
 uv run python chicago-public-media/classify.py \
     --data-dir /path/to/beat_book_work/chicago-public-media/data/2026 \
-    --model llama3.2
+    --model qwen3.5:35b
 ```
 
 ### Stage 2: `extract.py` — Pull out structure
@@ -46,7 +46,7 @@ Runs each classified article through Ollama to extract:
 ```bash
 uv run python chicago-public-media/extract.py \
     --input chicago-public-media/classified_articles.json \
-    --model llama3.2
+    --model qwen3.5:35b
 ```
 
 ### Stage 3: `guide.py` — Synthesize the beat book
@@ -89,7 +89,7 @@ source .venv/bin/activate
 [Ollama](https://ollama.com) must be running locally for stages 1 and 2:
 
 ```bash
-ollama pull llama3.2
+ollama pull qwen3.5:35b
 ```
 
 ---
