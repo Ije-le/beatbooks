@@ -7,11 +7,14 @@ The demo in this repo is a **beat book generator** for Chicago local government 
 # Ijeoma's slides
 [beat_book.pdf](Intro slides)
 
-
 # Clay's slides
 https://www.figma.com/deck/m2it62ezcdsWjA41cmSRc2 
 
 ---
+
+## The Materials
+
+Stories from a WordPress platform site's full-text RSS feed - in this case the Chicago Sun-Times, now a part of Chicago Public Media. You can find the code and stories [here](https://github.com/NewsAppsUMD/beat_book_work).
 
 ## The Pipeline
 
