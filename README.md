@@ -118,7 +118,7 @@ Articles come from [NewsAppsUMD/beat_book_work](https://github.com/NewsAppsUMD/b
 
 **State files for resilience.** Stages 1 and 2 write a `.json` state file after each article. If a run is interrupted, it resumes exactly where it left off — important when classifying hundreds of articles.
 
-**No `summary` in the final output.** Raw article HTML is used during classification and extraction but stripped from `extracted_articles.json` to keep the file readable and manageable.
+**No full text in the final output.** Raw article HTML is used during classification and extraction but stripped from `extracted_articles.json` to preserve privacy/intellectual property rights and to reduce the context window.
 
 **Prompt as editorial voice.** The `guide.py` system prompt is as much editorial policy as LLM instruction — it explicitly bans AI-editorial phrases ("underscores the importance of," "navigating the complexities") and tells the model to write like a reporter, not a commentator.
 
