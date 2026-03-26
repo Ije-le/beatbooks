@@ -1,18 +1,18 @@
 """Classify streetcar suburbs articles as College Park City Council beat stories.
 
-Reads articles from a single local JSON file or directly from the
-NewsAppsUMD/beat_book_work GitHub repository. Uses an LLM to determine
-whether each article covers the College Park City Council beat. Outputs
-a filtered JSON file.
+Reads articles from streetcar-suburbs/streetcarsuburbs.json — either from a
+local copy or directly from the NewsAppsUMD/beat_book_work GitHub repository.
+Uses an Ollama model to determine whether each article covers the College Park
+City Council beat. Outputs a filtered JSON file.
 
 Usage:
-    # Pull articles automatically from GitHub (default):
-    uv run python classify_streetcar.py --model groq/meta-llama/llama-4-scout-17b-16e-instruct
+    # Fetch articles automatically from GitHub (default):
+    uv run python classify_streetcar.py --model llama3.2
 
     # Or point at a local file:
     uv run python classify_streetcar.py \\
-        --data-file /path/to/streetcarsuburbs.json \\
         --model llama3.2 \\
+        --data-file streetcar-suburbs/streetcarsuburbs.json \\
         [--output classified_streetcar.json] \\
         [--state-file .classify_streetcar_state.json]
 """
@@ -31,53 +31,45 @@ from utils import strip_html
 
 console = Console()
 
-SYSTEM_PROMPT = """You are a news article classifier for the College Park City Council beat.
-
-Your job is to determine if an article covers the COLLEGE PARK CITY COUNCIL BEAT —
-meaning it involves the College Park, Maryland city council, its members, meetings,
-votes, decisions, or the local legislative and governance process. Answer only YES or NO.
-
-Topics that qualify as College Park City Council beat:
-- College Park City Council meetings, agendas, votes, and resolutions
-- Council member activity, elections, appointments, or resignations
-- Mayor of College Park and their relationship with the council
-- Local ordinances and municipal code changes affecting College Park
-- Zoning, land-use, and development decisions by the College Park council or planning board
-- College Park city budget, taxes, and spending approved by the council
-- Council oversight of College Park city departments and services
-- University of Maryland and its relationship with College Park city government
-- Public hearings and community input processes held by the council
-- Intergovernmental agreements involving College Park city government
-- College Park infrastructure, public works, or transit decisions by the council
-
-Topics that do NOT qualify:
-- University of Maryland campus news with no city council angle
-- Prince George's County government actions (unless College Park council is also involved)
-- State or federal legislation not directly tied to a College Park council decision
-- General crime stories without a council policy angle
-- School board or park authority decisions (separate governing bodies)
-- Human interest stories without a College Park governance angle
-- Business news without a College Park city council decision involved
-
-Be conservative: if unclear, answer NO."""
-
-USER_PROMPT_TEMPLATE = """Article title: {title}
-
-Article content:
-{summary}
-
-Does this article cover the College Park City Council beat — meaning it involves the
-College Park, Maryland city council and their meetings, votes, members, or decisions?
-Answer only YES or NO."""
-
-
 GITHUB_REPO = "NewsAppsUMD/beat_book_work"
 GITHUB_DATA_FILE = "streetcar-suburbs/streetcarsuburbs.json"
 GITHUB_RAW_BASE = "https://raw.githubusercontent.com/{repo}/main/{path}"
 
+SYSTEM_PROMPT = """You are a news article classifier for the College Park city government beat.
+
+Your job is to determine if an article involves the city government of College Park,
+Maryland in any way — including its elected officials, council decisions, city staff,
+or municipal policies. Answer only YES or NO.
+
+Say YES if the article mentions any of the following in connection with College Park:
+- The city council, city government, or city hall
+- Councilmembers or the mayor
+- A vote, resolution, ordinance, or meeting of the city
+- City budget, taxes, spending, or city services
+- Zoning, development, or land-use decisions by the city
+- City departments: police, public works, parks, planning, etc.
+- The University of Maryland's relationship with the city government
+- Any city official, city staff, or city policy
+
+Say YES even if College Park is referred to simply as "the city," "the council,"
+"city officials," "councilmembers," or similar informal references.
+
+Say NO only if the article has no connection to College Park city government at all.
+
+Be inclusive: if there is any reasonable city government angle, answer YES."""
+
+USER_PROMPT_TEMPLATE = """Article title: {title}
+
+Article content:
+{content}
+
+Does this article involve the city government of College Park, Maryland in any way —
+including its council, mayor, officials, votes, or city policies?
+Answer only YES or NO."""
+
 
 def load_articles_from_github() -> list[dict]:
-    """Fetch articles from the single streetcarsuburbs.json file in the GitHub repo."""
+    """Fetch articles from streetcarsuburbs.json in the GitHub repo."""
     url = GITHUB_RAW_BASE.format(repo=GITHUB_REPO, path=GITHUB_DATA_FILE)
     req = urllib.request.Request(url, headers={"Accept": "application/json"})
     with urllib.request.urlopen(req) as resp:
@@ -105,15 +97,19 @@ def save_state(state: dict, state_file: Path) -> None:
 
 
 def classify_article(model, article: dict) -> bool:
-    """Return True if the article belongs to the city council beat."""
-    title = article.get("title", "")
+    """Return True if the article belongs to the College Park City Council beat."""
+    raw_title = article.get("title", "")
+    if isinstance(raw_title, dict):
+        title = raw_title.get("rendered", str(raw_title))
+    else:
+        title = str(raw_title)
 
-    # Prefer the AI-generated summary from extraction; fall back to raw summary field
-    extraction = article.get("extraction", {})
-    raw_summary = extraction.get("ai_summary") or article.get("summary", "")
-    summary_text = strip_html(raw_summary)[:2000]
+    raw_content = article.get("content", "")
+    if not isinstance(raw_content, str):
+        raw_content = str(raw_content)
+    content_text = strip_html(raw_content)[:2000]
 
-    prompt = USER_PROMPT_TEMPLATE.format(title=title, summary=summary_text)
+    prompt = USER_PROMPT_TEMPLATE.format(title=title, content=content_text)
     try:
         response = model.prompt(prompt, system=SYSTEM_PROMPT)
         answer = response.text().strip().upper()
@@ -133,14 +129,13 @@ def main():
         type=Path,
         help=(
             "Path to a local streetcarsuburbs.json file. "
-            "If omitted, the file is fetched automatically from the "
-            "NewsAppsUMD/beat_book_work GitHub repository."
+            "If omitted, articles are fetched from GitHub automatically."
         ),
     )
     parser.add_argument(
         "--model",
         required=True,
-        help="LLM model name to use for classification (e.g. llama3.2, groq/...).",
+        help="Ollama model name to use for classification (e.g. llama3.2, mistral).",
     )
     parser.add_argument(
         "--output",
@@ -170,7 +165,6 @@ def main():
     console.print(f"  Output : {args.output}")
     console.print()
 
-    # Load articles
     if args.data_file is not None:
         if not args.data_file.exists():
             console.print(f"[red]Error: file not found: {args.data_file}[/red]")
@@ -185,7 +179,6 @@ def main():
         except Exception as exc:
             console.print(f"[red]Error fetching articles from GitHub: {exc}[/red]")
             sys.exit(1)
-
     console.print(f"  Found {len(articles)} articles.")
 
     if args.limit is not None:
@@ -199,11 +192,12 @@ def main():
     if already_done:
         console.print(f"  Resuming: {already_done} articles already classified, skipping.")
 
-    # Load model
+    # Load Ollama model
     try:
         model = llm.get_model(args.model)
     except Exception as exc:
         console.print(f"[red]Error loading model '{args.model}': {exc}[/red]")
+        console.print("  Make sure the model is pulled via Ollama and llm-ollama is installed.")
         sys.exit(1)
 
     # Classify articles
