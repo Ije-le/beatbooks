@@ -1,0 +1,89 @@
+{
+  "total_articles": 2,
+  "model": "groq/meta-llama/llama-4-maverick-17b-128e-instruct",
+  "articles": [
+    {
+      "title": "West Chicago teacher resigns following backlash over social media post supporting ICE",
+      "link": "https://chicago.suntimes.com/news/2026/02/06/west-chicago-teacher-resigns-following-backlash-over-social-media-post-supporting-ice",
+      "published": "2026-02-06T14:15:18.837-06:00",
+      "published_parsed": "2026-02-06T20:15:18",
+      "author": "Cindy Hernandez",
+      "id": "https://chicago.suntimes.com/news/2026/02/06/west-chicago-teacher-resigns-following-backlash-over-social-media-post-supporting-ice",
+      "tags": [],
+      "_date": "2026-02-06",
+      "extraction": {
+        "key_people": [
+          "Rita Balgeman (West Chicago Elementary School District 33 board president)",
+          "Kristina Davis (Superintendent, West Chicago Elementary School District 33)",
+          "Nestor Ruiz (interim chief of staff for Illinois State Senator Karina Villa)",
+          "Karina Villa (Illinois State Senator)",
+          "Ana Galvan (parent of students at Gary Elementary School)",
+          "Cindy Hernandez (author)"
+        ],
+        "organizations": [
+          "West Chicago Elementary School District 33",
+          "Gary Elementary School",
+          "U.S. Immigration and Customs Enforcement (ICE)",
+          "Office of Senator Karina Villa"
+        ],
+        "locations": [
+          "West Chicago, Illinois",
+          "Gary Elementary School"
+        ],
+        "key_issues": [
+          "Teacher conduct and social media use",
+          "School district response to controversial speech",
+          "Immigration enforcement debate (ICE) in the community",
+          "School climate and student safety"
+        ],
+        "category": "education",
+        "ai_summary": "An elementary school teacher in West Chicago resigned after backlash over a social‑media post that appeared to support ICE. The district board accepted the resignation following administrative leave and public outcry, citing concerns about school climate and student safety. The case highlights tensions between free expression, immigration policy debates, and district governance in Chicago-area schools."
+      }
+    },
+    {
+      "title": "Chicago avanza en la obtención de fondos para comprar la estación de Greyhound del centro",
+      "link": "https://chicago.suntimes.com/la-voz/2026/02/06/chicago-avanza-en-la-obtencion-de-fondos-para-comprar-la-estacion-de-greyhound-del-centro",
+      "published": "2026-02-06T12:39:49.181-06:00",
+      "published_parsed": "2026-02-06T18:39:49",
+      "author": "David Struett",
+      "id": "https://chicago.suntimes.com/la-voz/2026/02/06/chicago-avanza-en-la-obtencion-de-fondos-para-comprar-la-estacion-de-greyhound-del-centro",
+      "tags": [],
+      "_date": "2026-02-06",
+      "extraction": {
+        "key_people": [
+          "Brandon Johnson – Mayor of Chicago",
+          "Bill Conway – Chicago City Councilmember (34th Ward)",
+          "Peter Strazzabosco – Vice Commissioner, Department of Planning and Development",
+          "Joe Schwieterman – Professor, DePaul University",
+          "David Struett – Author"
+        ],
+        "organizations": [
+          "City of Chicago",
+          "Mayor's Office",
+          "Chicago City Council",
+          "Department of Planning and Development (DPD)",
+          "Community Development Commission",
+          "Finance Committee",
+          "DePaul University",
+          "Greyhound",
+          "Twenty Lake Holdings (Alden Global Capital)",
+          "Canal/Congress Tax Increment Financing (TIF) District"
+        ],
+        "locations": [
+          "630 W. Harrison St., Chicago",
+          "Canal/Congress TIF district",
+          "Union Station, Chicago",
+          "Chicago downtown (the Loop)"
+        ],
+        "key_issues": [
+          "Funding and purchase of the Greyhound bus station",
+          "Use of Tax Increment Financing (TIF) to acquire the property",
+          "Municipal ownership and operation of an intercity bus terminal",
+          "Allocation of mayoral budget funds for the project"
+        ],
+        "category": "budget",
+        "ai_summary": "Chicago is moving to secure $50 million in TIF funding, plus mayoral allocations, to purchase and renovate the Greyhound station at 630 W. Harrison St. The plan, identified by Mayor Brandon Johnson and Councilmember Bill Conway, will be reviewed by the Community Development Commission and Finance Committee, aiming to give the city its first municipally‑run intercity bus terminal."
+      }
+    }
+  ]
+}
