@@ -38,33 +38,34 @@ GITHUB_RAW_BASE = "https://raw.githubusercontent.com/{repo}/main/{path}"
 SYSTEM_PROMPT = """You are a news article classifier for the College Park city government beat.
 
 Your job is to determine if an article involves the city government of College Park,
-Maryland in any way — including its elected officials, council decisions, city staff,
-or municipal policies. Answer only YES or NO.
+Maryland specifically — not Prince George's County, not the state of Maryland, not
+other municipalities. Answer only YES or NO.
 
-Say YES if the article mentions any of the following in connection with College Park:
-- The city council, city government, or city hall
-- Councilmembers or the mayor
-- A vote, resolution, ordinance, or meeting of the city
-- City budget, taxes, spending, or city services
-- Zoning, development, or land-use decisions by the city
-- City departments: police, public works, parks, planning, etc.
-- The University of Maryland's relationship with the city government
-- Any city official, city staff, or city policy
+Say YES if the article explicitly involves College Park city government, such as:
+- The College Park City Council or College Park city government
+- A College Park council member, alderman, or the College Park mayor
+- A vote, resolution, ordinance, or meeting of the College Park city government
+- College Park city budget, taxes, spending, or city services
+- Zoning or development decisions made by College Park city officials
+- College Park city departments or city staff
+- The University of Maryland's relationship specifically with College Park city government
 
-Say YES even if College Park is referred to simply as "the city," "the council,"
-"city officials," "councilmembers," or similar informal references.
+Say NO if:
+- The article is only about Prince George's County government or the county council
+- The article is about state government without a College Park city angle
+- Council members mentioned are county or state officials, not College Park city officials
+- College Park is only mentioned geographically, not in a city government context
+- The article covers other suburbs or municipalities without involving College Park city government
 
-Say NO only if the article has no connection to College Park city government at all.
-
-Be inclusive: if there is any reasonable city government angle, answer YES."""
+The article must clearly involve College Park CITY government specifically to answer YES."""
 
 USER_PROMPT_TEMPLATE = """Article title: {title}
 
 Article content:
 {content}
 
-Does this article involve the city government of College Park, Maryland in any way —
-including its council, mayor, officials, votes, or city policies?
+Does this article specifically involve the city government of College Park, Maryland —
+not the county, not the state, but College Park city officials, council, or city policy?
 Answer only YES or NO."""
 
 
@@ -110,13 +111,9 @@ def classify_article(model, article: dict) -> bool:
     content_text = strip_html(raw_content)[:2000]
 
     prompt = USER_PROMPT_TEMPLATE.format(title=title, content=content_text)
-    try:
-        response = model.prompt(prompt, system=SYSTEM_PROMPT)
-        answer = response.text().strip().upper()
-        return answer.startswith("YES")
-    except Exception as exc:
-        console.print(f"[yellow]Warning: classification error for '{title[:60]}': {exc}[/yellow]")
-        return False
+    response = model.prompt(prompt, system=SYSTEM_PROMPT)
+    answer = response.text().strip().upper()
+    return answer.startswith("YES")
 
 
 def main():
