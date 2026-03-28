@@ -1,0 +1,706 @@
+{
+  "total_articles": 10,
+  "model": "groq-llama-3.3-70b",
+  "articles": [
+    {
+      "id": 51753,
+      "date": "2026-02-24T21:54:22",
+      "date_gmt": "2026-02-25T02:54:22",
+      "guid": {
+        "rendered": "https://streetcarsuburbs.news/?p=51753"
+      },
+      "modified": "2026-02-25T17:23:39",
+      "modified_gmt": "2026-02-25T22:23:39",
+      "slug": "city-throws-support-behind-paint-branch-chinese-immersion-program",
+      "status": "publish",
+      "type": "post",
+      "link": "https://streetcarsuburbs.news/city-throws-support-behind-paint-branch-chinese-immersion-program/",
+      "title": {
+        "rendered": "City throws support behind Paint Branch Chinese immersion program"
+      },
+      "excerpt": {
+        "rendered": "<p>The College Park City Council voted Tuesday to send a letter to the Prince George’s County Board of Education (BOE) in support of continued funding for the Chinese immersion program at Paint Branch Elementary School. The letter came two days before the board is scheduled to vote on its proposed fiscal 2027 budget and follows [&hellip;]</p>\n",
+        "protected": false
+      },
+      "author": 7,
+      "featured_media": 51754,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "categories": [
+        223,
+        3784,
+        2,
+        1736
+      ],
+      "tags": [
+        4470,
+        4460,
+        176
+      ],
+      "coauthors": [
+        4047
+      ],
+      "jetpack_publicize_connections": [],
+      "jetpack_featured_media_url": "https://i0.wp.com/streetcarsuburbs.news/wp-content/uploads/2026/02/new-immersion-2-24-scaled.jpg?fit=2560%2C1920&ssl=1",
+      "jetpack-related-posts": [],
+      "jetpack_sharing_enabled": true,
+      "extraction": {
+        "key_people": [
+          "Fazlul Kabir, Mayor",
+          "Shawn Joseph, Interim Superintendent of Schools",
+          "Judith White, PGCPS Chief Academic Officer",
+          "Alexandra Tyukavina, Paint Branch PTA Secretary"
+        ],
+        "organizations": [
+          "College Park City Council",
+          "Prince George’s County Board of Education",
+          "Prince George’s County Public Schools"
+        ],
+        "locations": [
+          "College Park",
+          "Paint Branch Elementary School"
+        ],
+        "key_issues": [
+          "Chinese immersion program",
+          "education funding",
+          "enrollment restrictions"
+        ],
+        "category": "education",
+        "ai_summary": "The College Park City Council has sent a letter to the Prince George’s County Board of Education in support of continued funding for the Chinese immersion program at Paint Branch Elementary School. The letter, signed by Mayor Fazlul Kabir, asks the board to fund the full program for all Paint Branch students, stating that “The program has become an important part of the broader educational ecosystem serving College Park residents.” The council's action comes as the board is set to vote on its proposed fiscal 2027 budget, which includes a plan to limit enrollment in the immersion program to 25 students per grade."
+      }
+    },
+    {
+      "id": 51534,
+      "date": "2026-02-03T22:26:57",
+      "date_gmt": "2026-02-04T03:26:57",
+      "guid": {
+        "rendered": "https://streetcarsuburbs.news/?p=51534"
+      },
+      "modified": "2026-02-04T19:08:05",
+      "modified_gmt": "2026-02-05T00:08:05",
+      "slug": "council-adopts-early-lease-ordinance",
+      "status": "publish",
+      "type": "post",
+      "link": "https://streetcarsuburbs.news/council-adopts-early-lease-ordinance/",
+      "title": {
+        "rendered": "Council adopts early lease ordinance"
+      },
+      "excerpt": {
+        "rendered": "<p>The College Park City Council on Feb. 3 unanimously approved an ordinance that will prevent landlords from asking tenants to renew a lease sooner than 180 days from the end of the current lease. The so-called early lease ordinance, overwhelmingly supported by students renting apartments in high-rise buildings on or near Route 1, was introduced [&hellip;]</p>\n",
+        "protected": false
+      },
+      "author": 7,
+      "featured_media": 51536,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "categories": [
+        223,
+        2
+      ],
+      "tags": [
+        2726,
+        4253,
+        4452
+      ],
+      "coauthors": [
+        4047
+      ],
+      "jetpack_publicize_connections": [],
+      "jetpack_featured_media_url": "https://i0.wp.com/streetcarsuburbs.news/wp-content/uploads/2026/02/EARLY-LEASE-1-scaled.jpg?fit=2560%2C1546&ssl=1",
+      "jetpack-related-posts": [],
+      "jetpack_sharing_enabled": true,
+      "extraction": {
+        "key_people": [
+          "Holly Simmons, Councilmember",
+          "Sami Saeed, public policy major at the University of Maryland",
+          "David Dorsch, College Park resident and landlord",
+          "Richard Biffl, landlord",
+          "Fazlul Kabir, Mayor",
+          "Nick DiSpirito, UMD's student liaison to the city council"
+        ],
+        "organizations": [
+          "College Park City Council",
+          "University of Maryland"
+        ],
+        "locations": [
+          "College Park",
+          "Route 1"
+        ],
+        "key_issues": [
+          "early lease ordinance",
+          "rental agreements",
+          "tenant-landlord relations"
+        ],
+        "category": "ordinance",
+        "ai_summary": "The College Park City Council unanimously approved an ordinance that prevents landlords from asking tenants to renew a lease sooner than 180 days from the end of the current lease. The ordinance was introduced in September and drew comments from more than 20 tenants who attended a November public hearing, with students sharing stories about landlords who approached them as soon as a month after move-in, threatening to substantially raise the rent or replace the occupants with other tenants unless they renewed their leases. As Sami Saeed, a public policy major at the University of Maryland, said: 'The stress that that caused me … trying to find anyone to live with for next year. I had to call 50 people. … That is the situation renters are faced with. That is the situation I was faced with. It happened to me.'"
+      }
+    },
+    {
+      "id": 51397,
+      "date": "2026-01-30T09:00:00",
+      "date_gmt": "2026-01-30T14:00:00",
+      "guid": {
+        "rendered": "https://streetcarsuburbs.news/?p=51397"
+      },
+      "modified": "2026-01-27T14:28:39",
+      "modified_gmt": "2026-01-27T19:28:39",
+      "slug": "committee-pushes-for-changes-at-school-bus-stops",
+      "status": "publish",
+      "type": "post",
+      "link": "https://streetcarsuburbs.news/committee-pushes-for-changes-at-school-bus-stops/",
+      "title": {
+        "rendered": "Committee pushes for changes at school bus stops"
+      },
+      "excerpt": {
+        "rendered": "<p>A citizen-led committee resubmitted a year-old report on school bus stop safety to the College Park City Council in January in an effort to encourage officials to make changes to protect elementary school children. College Park’s Bicycle and Pedestrian Advisory Committee (BPAC) in October 2024 recommended that the city upgrade safety at seven school bus [&hellip;]</p>\n",
+        "protected": false
+      },
+      "author": 7,
+      "featured_media": 51386,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "categories": [
+        223,
+        3784,
+        2,
+        1736
+      ],
+      "tags": [
+        4419,
+        401,
+        4421
+      ],
+      "coauthors": [
+        4047
+      ],
+      "jetpack_publicize_connections": [],
+      "jetpack_featured_media_url": "https://i0.wp.com/streetcarsuburbs.news/wp-content/uploads/2026/01/SCHOOL-BUS-STOPS.jpg?fit=2466%2C1260&ssl=1",
+      "jetpack-related-posts": [],
+      "jetpack_sharing_enabled": true,
+      "extraction": {
+        "key_people": [
+          "Donald Hays, chairman of the BPAC subcommittee",
+          "Jacob Hernandez, District 1 Councilmember",
+          "Alan Hew, District 1 Councilmember"
+        ],
+        "organizations": [
+          "College Park City Council",
+          "College Park’s Bicycle and Pedestrian Advisory Committee (BPAC)",
+          "Prince George’s County"
+        ],
+        "locations": [
+          "St. Andrews Place",
+          "Duke Street",
+          "Edgewood Road",
+          "49th Avenue",
+          "47th Avenue",
+          "Cherry Hill Road",
+          "Kiernan Road",
+          "Metzerott Road",
+          "Route 1"
+        ],
+        "key_issues": [
+          "school bus stop safety",
+          "bike lanes",
+          "sidewalk installation",
+          "relocation of bus stops"
+        ],
+        "category": "public_safety",
+        "ai_summary": "A citizen-led committee, the College Park’s Bicycle and Pedestrian Advisory Committee (BPAC), resubmitted a year-old report on school bus stop safety to the College Park City Council, recommending changes to protect elementary school children. The committee’s chairman, Donald Hays, expressed frustration that the city has not acted on any of the recommendations, stating “I personally feel that is an outrage and there has been very little movement and very little progress.” The report included safety evaluations for 75 elementary school bus stops, with recommendations for seven bus stops that scored low on safety criteria from the National Highway Traffic Safety Administration."
+      }
+    },
+    {
+      "id": 51400,
+      "date": "2026-01-30T08:00:00",
+      "date_gmt": "2026-01-30T13:00:00",
+      "guid": {
+        "rendered": "https://streetcarsuburbs.news/?p=51400"
+      },
+      "modified": "2026-01-27T14:47:17",
+      "modified_gmt": "2026-01-27T19:47:17",
+      "slug": "lakeland-to-add-artwork-highlighting-its-history",
+      "status": "publish",
+      "type": "post",
+      "link": "https://streetcarsuburbs.news/lakeland-to-add-artwork-highlighting-its-history/",
+      "title": {
+        "rendered": "Lakeland to add artwork highlighting its history"
+      },
+      "excerpt": {
+        "rendered": "<p>Residents of College Park’s Lakeland neighborhood are planning to add 10 murals to sidewalks, storm drains, fences, retaining walls and paths throughout the community. The project is a continuation of a decades-long effort to highlight the history of Lakeland, said Maxine Gross, a member of the Lakeland Community Heritage Project and a fifth-generation Lakeland resident. [&hellip;]</p>\n",
+        "protected": false
+      },
+      "author": 7,
+      "featured_media": 51402,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "categories": [
+        223,
+        1629
+      ],
+      "tags": [
+        401,
+        276,
+        1993,
+        4423
+      ],
+      "coauthors": [
+        4047
+      ],
+      "jetpack_publicize_connections": [],
+      "jetpack_featured_media_url": "https://i0.wp.com/streetcarsuburbs.news/wp-content/uploads/2026/01/pexels-felicity-tai-7951507-1-scaled.jpg?fit=2560%2C1707&ssl=1",
+      "jetpack-related-posts": [],
+      "jetpack_sharing_enabled": true,
+      "extraction": {
+        "key_people": [
+          "Maxine Gross, member of the Lakeland Community Heritage Project and fifth-generation Lakeland resident",
+          "Fazlul Kabir, College Park Mayor"
+        ],
+        "organizations": [
+          "Lakeland Community Heritage Project",
+          "College Park City Council",
+          "University of Maryland",
+          "Maryland Heritage Areas Authority"
+        ],
+        "locations": [
+          "Lakeland neighborhood",
+          "College Park"
+        ],
+        "key_issues": [
+          "public art",
+          "community heritage",
+          "neighborhood history"
+        ],
+        "category": "community",
+        "ai_summary": "The Lakeland neighborhood in College Park is planning to add 10 murals to highlight its history, as part of a decades-long effort to preserve the community's heritage. According to Maxine Gross, a member of the Lakeland Community Heritage Project, 'It's just a way for folks to be able to see the community that we have been talking about for a number of years.' The project is a joint effort among city officials, community members, and University of Maryland partners, with a total budget of $28,382, and College Park Mayor Fazlul Kabir said, 'This will be a wonderful and very easy and entertaining way to know about what happened and what used to be the historic Lakeland.'"
+      }
+    },
+    {
+      "id": 51390,
+      "date": "2026-01-30T08:00:00",
+      "date_gmt": "2026-01-30T13:00:00",
+      "guid": {
+        "rendered": "https://streetcarsuburbs.news/?p=51390"
+      },
+      "modified": "2026-01-27T14:22:56",
+      "modified_gmt": "2026-01-27T19:22:56",
+      "slug": "students-suggest-ways-to-ease-neighborhood-tensions-near-umd",
+      "status": "publish",
+      "type": "post",
+      "link": "https://streetcarsuburbs.news/students-suggest-ways-to-ease-neighborhood-tensions-near-umd/",
+      "title": {
+        "rendered": "Students suggest ways to ease neighborhood tensions near UMD"
+      },
+      "excerpt": {
+        "rendered": "<p>Three housing policy students in December suggested that the city and the University of Maryland (UMD) could do more to help undergraduate tenants become better neighbors to the long-term homeowners who live near them. The students, part of the UMD Partnership for Action Learning in Sustainability Program, told the College Park City Council that students [&hellip;]</p>\n",
+        "protected": false
+      },
+      "author": 7,
+      "featured_media": 51391,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "categories": [
+        223,
+        4417
+      ],
+      "tags": [
+        401,
+        4418,
+        109
+      ],
+      "coauthors": [
+        4047
+      ],
+      "jetpack_publicize_connections": [],
+      "jetpack_featured_media_url": "https://i0.wp.com/streetcarsuburbs.news/wp-content/uploads/2026/01/umd-scaled.jpg?fit=2560%2C1920&ssl=1",
+      "jetpack-related-posts": [],
+      "jetpack_sharing_enabled": true,
+      "extraction": {
+        "key_people": [
+          "Frances Chen, UMD Student and Research Presenter",
+          "Nicholas Crane, UMD Student and Research Presenter",
+          "Ashna Pandya, UMD Student and Research Presenter",
+          "Alan Hew, College Park City Councilmember"
+        ],
+        "organizations": [
+          "University of Maryland",
+          "College Park City Council",
+          "UMD Partnership for Action Learning in Sustainability Program"
+        ],
+        "locations": [
+          "Old Town",
+          "Berwyn",
+          "Lakeland"
+        ],
+        "key_issues": [
+          "Studentification of neighborhoods",
+          "Neighborhood degradation",
+          "Affordable housing",
+          "Student-resident relations"
+        ],
+        "category": "housing",
+        "ai_summary": "Three UMD students, Frances Chen, Nicholas Crane, and Ashna Pandya, presented research to the College Park City Council on ways to ease neighborhood tensions near the university. They suggested expanding a door-knocking program and reviving a rent subsidy program, as well as designating areas on campus for alcohol consumption to reduce partying in private houses. Councilmember Alan Hew emphasized the university's responsibility to teach students how to be good neighbors, stating 'The university well knows that, after two years living on campus, students are expected to live off campus... They have not taken any responsibility in preparing the students living off campus.'"
+      }
+    },
+    {
+      "id": 51376,
+      "date": "2026-01-28T08:00:00",
+      "date_gmt": "2026-01-28T13:00:00",
+      "guid": {
+        "rendered": "https://streetcarsuburbs.news/?p=51376"
+      },
+      "modified": "2026-01-27T14:00:14",
+      "modified_gmt": "2026-01-27T19:00:14",
+      "slug": "city-considers-expanding-permit-parking",
+      "status": "publish",
+      "type": "post",
+      "link": "https://streetcarsuburbs.news/city-considers-expanding-permit-parking/",
+      "title": {
+        "rendered": "City considers expanding permit parking"
+      },
+      "excerpt": {
+        "rendered": "<p>College Park City Council members in January asked city staff to conduct a study to determine whether to restrict parking in residential neighborhoods by issuing permits. Some neighborhoods, including those with crowded streets and few driveways in North College Park and around the University of Maryland campus, already have permit-only parking. The study would examine [&hellip;]</p>\n",
+        "protected": false
+      },
+      "author": 7,
+      "featured_media": 51377,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "categories": [
+        223,
+        2
+      ],
+      "tags": [
+        80,
+        401,
+        4074
+      ],
+      "coauthors": [
+        4047
+      ],
+      "jetpack_publicize_connections": [],
+      "jetpack_featured_media_url": "https://i0.wp.com/streetcarsuburbs.news/wp-content/uploads/2026/01/PERMIT-PARKING-scaled.jpeg?fit=2560%2C1920&ssl=1",
+      "jetpack-related-posts": [],
+      "jetpack_sharing_enabled": true,
+      "extraction": {
+        "key_people": [
+          "Jim Miller, Parking Enforcement Officer",
+          "Susan Whitney, Former Councilmember (District 2)"
+        ],
+        "organizations": [
+          "College Park City Council",
+          "City of College Park"
+        ],
+        "locations": [
+          "North College Park",
+          "University of Maryland campus"
+        ],
+        "key_issues": [
+          "permit parking",
+          "parking restrictions",
+          "residential overcrowding"
+        ],
+        "category": "transportation",
+        "ai_summary": "The College Park City Council is considering expanding permit parking in residential neighborhoods, with a study to determine whether to restrict parking on additional streets throughout the city. Parking Enforcement Officer Jim Miller proposed the study, suggesting that permit-only parking could help address overcrowding in homes because only homeowners and tenants whose names appear on a lease would qualify for permits, saying 'Where are they going to park their car now, because they are not on a lease agreement, they are not listed as [the] owner-occupied property owner... Without providing the necessary documentation that we require, they won’t be able to get a permit, so they’ll have to figure out where their car goes.' Councilmembers had mixed reactions to the proposal to charge for permits, with former Councilmember Susan Whitney suggesting the city offer more incentives, such as tax breaks, to encourage residents to own fewer cars, saying 'We want people who need their cars to be able to park them, and we want people who can get by with one car to do that and to be encouraged to do that'."
+      }
+    },
+    {
+      "id": 51441,
+      "date": "2026-01-27T22:45:03",
+      "date_gmt": "2026-01-28T03:45:03",
+      "guid": {
+        "rendered": "https://streetcarsuburbs.news/?p=51441"
+      },
+      "modified": "2026-01-27T22:45:05",
+      "modified_gmt": "2026-01-28T03:45:05",
+      "slug": "affordable-senior-housing-to-open-on-branchville-road",
+      "status": "publish",
+      "type": "post",
+      "link": "https://streetcarsuburbs.news/affordable-senior-housing-to-open-on-branchville-road/",
+      "title": {
+        "rendered": "Affordable senior housing to open on Branchville Road"
+      },
+      "excerpt": {
+        "rendered": "<p>The College Park City Council agreed Jan. 27 to recommend that Prince George’s County amend a parking ordinance that would allow a developer to build a four-story, 87-unit apartment building for older residents on Branchville Road. Development of the 2.2-acre site at 4810 Branchville Road has been approved twice before: in 1987 for a 96-unit [&hellip;]</p>\n",
+        "protected": false
+      },
+      "author": 7,
+      "featured_media": 51437,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "categories": [
+        223
+      ],
+      "tags": [
+        4430,
+        4101,
+        401
+      ],
+      "coauthors": [
+        4047
+      ],
+      "jetpack_publicize_connections": [],
+      "jetpack_featured_media_url": "https://i0.wp.com/streetcarsuburbs.news/wp-content/uploads/2026/01/BRANCHVILLE-CROSSING-PHOTO.jpeg?fit=1236%2C572&ssl=1",
+      "jetpack-related-posts": [],
+      "jetpack_sharing_enabled": true,
+      "extraction": {
+        "key_people": [
+          "Matthew Tedesco, lawyer representing Cruz Development Corp",
+          "Kelly Jordan, Councilmember (District 2)",
+          "Carlos Nunes, senior planner with the city"
+        ],
+        "organizations": [
+          "College Park City Council",
+          "Cruz Development Corp",
+          "Prince George’s County"
+        ],
+        "locations": [
+          "Branchville Road",
+          "4810 Branchville Road",
+          "College Park"
+        ],
+        "key_issues": [
+          "senior housing",
+          "parking ordinance",
+          "affordable housing"
+        ],
+        "category": "housing",
+        "ai_summary": "The College Park City Council recommended amending a parking ordinance to allow a developer to build a four-story, 87-unit apartment building for older residents on Branchville Road. 'There is a real need for senior housing in College Park,' said Councilmember Kelly Jordan. The project, called Branchville Crossing, will be financed using a 4% federal low-income housing tax credit and will offer rent-based 60% of the area median income, with estimated monthly charges between $1,100 and $2,000."
+      }
+    },
+    {
+      "id": 51373,
+      "date": "2026-01-27T13:49:42",
+      "date_gmt": "2026-01-27T18:49:42",
+      "guid": {
+        "rendered": "https://streetcarsuburbs.news/?p=51373"
+      },
+      "modified": "2026-01-27T13:49:44",
+      "modified_gmt": "2026-01-27T18:49:44",
+      "slug": "governor-pushes-for-smaller-denser-housing",
+      "status": "publish",
+      "type": "post",
+      "link": "https://streetcarsuburbs.news/governor-pushes-for-smaller-denser-housing/",
+      "title": {
+        "rendered": "Governor pushes for smaller, denser housing"
+      },
+      "excerpt": {
+        "rendered": "<p>Maryland Gov. Wes Moore has proposed a drastic change in Maryland zoning law to promote construction of more affordable homes, but state officials who represent College Park are divided on whether it would be a good thing. Moore has introduced a bill in the Maryland General Assembly—SB 36 in the Senate and HB 239 in [&hellip;]</p>\n",
+        "protected": false
+      },
+      "author": 7,
+      "featured_media": 51374,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "categories": [
+        223,
+        2
+      ],
+      "tags": [
+        194,
+        4411,
+        4412,
+        4414,
+        4413,
+        1068
+      ],
+      "coauthors": [
+        4047
+      ],
+      "jetpack_publicize_connections": [],
+      "jetpack_featured_media_url": "https://i0.wp.com/streetcarsuburbs.news/wp-content/uploads/2026/01/ZONING-1-scaled.jpg?fit=2560%2C1457&ssl=1",
+      "jetpack-related-posts": [],
+      "jetpack_sharing_enabled": true,
+      "extraction": {
+        "key_people": [
+          "Wes Moore, Governor",
+          "Joseline Peña-Melnyk, House Speaker",
+          "Jim Rosapepe, State Senator",
+          "Tom Dernoga, Prince George’s County Councilmember"
+        ],
+        "organizations": [
+          "Maryland General Assembly",
+          "Prince George’s County",
+          "College Park City Council"
+        ],
+        "locations": [
+          "College Park",
+          "Bowdoin Avenue"
+        ],
+        "key_issues": [
+          "affordable housing",
+          "zoning law",
+          "single-family homes",
+          "state legislation"
+        ],
+        "category": "zoning",
+        "ai_summary": "Maryland Governor Wes Moore has proposed a bill to change Maryland zoning law, allowing for more affordable housing by prohibiting local governments from requiring more than 5,000 square feet of property per single-family house. House Speaker Joseline Peña-Melnyk supports the proposal, stating 'Maryland has a housing shortage of roughly 100,000 homes... When people can’t afford to live here, we lose workers. We lose families. And we lose the economic growth that allows us to fund schools, transportation and public safety.' However, State Senator Jim Rosapepe and Prince George’s County Councilmember Tom Dernoga have expressed concerns and opposition to the proposal, citing practical issues and potential negative consequences such as congestion and school overcrowding."
+      }
+    },
+    {
+      "id": 51366,
+      "date": "2026-01-27T13:29:06",
+      "date_gmt": "2026-01-27T18:29:06",
+      "guid": {
+        "rendered": "https://streetcarsuburbs.news/?p=51366"
+      },
+      "modified": "2026-01-27T13:29:08",
+      "modified_gmt": "2026-01-27T18:29:08",
+      "slug": "councilmember-is-citizen-police-expert",
+      "status": "publish",
+      "type": "post",
+      "link": "https://streetcarsuburbs.news/councilmember-is-citizen-police-expert/",
+      "title": {
+        "rendered": "Councilmember is ‘citizen police’ expert"
+      },
+      "excerpt": {
+        "rendered": "<p>College Park City Councilmember Alan Hew (District 1) doesn’t wear a badge or carry a gun, but he knows an awful lot about the police. That’s because he has graduated from three different citizen police academies, where he learned how officers do their jobs and create relationships with members of the community. “There’s a lot [&hellip;]</p>\n",
+        "protected": false
+      },
+      "author": 7,
+      "featured_media": 51367,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "categories": [
+        223,
+        2
+      ],
+      "tags": [
+        3240,
+        4406,
+        2726
+      ],
+      "coauthors": [
+        4047
+      ],
+      "jetpack_publicize_connections": [],
+      "jetpack_featured_media_url": "https://i0.wp.com/streetcarsuburbs.news/wp-content/uploads/2026/01/HEW-1.jpg?fit=1680%2C1026&ssl=1",
+      "jetpack-related-posts": [],
+      "jetpack_sharing_enabled": true,
+      "extraction": {
+        "key_people": [
+          "Alan Hew, College Park City Councilmember",
+          "Erica Johnson, Sgt. and Coordinator of the Prince George’s County Police Department’s Citizens’ Police Academy",
+          "Fazlul Kabir, Mayor of College Park"
+        ],
+        "organizations": [
+          "College Park City Council",
+          "Prince George’s County Police Department",
+          "University of Maryland Police Department",
+          "Prince George’s County Sheriff’s Office",
+          "Metro Transit Police",
+          "Park Police"
+        ],
+        "locations": [],
+        "key_issues": [
+          "citizen police academies",
+          "community-police relationships",
+          "public safety"
+        ],
+        "category": "public_safety",
+        "ai_summary": "College Park City Councilmember Alan Hew has graduated from three different citizen police academies, learning about police operations and building relationships with the community. Hew said, 'There’s a lot of speculation of how they operate and I wanted to be able to speak confidently in support of the departments that operate within our city,' and believes the training has helped him contribute to council discussions about safety. According to Mayor Fazlul Kabir, Hew's knowledge from the academies has been valuable in addressing crime prevention and public safety improvement, saying 'Oftentimes on the council, when we have discussions on crime prevention and public safety improvement, because of his knowledge, he does share some important insights [about] how we can address those kinds of challenges,'"
+      }
+    },
+    {
+      "id": 51316,
+      "date": "2026-01-25T15:09:57",
+      "date_gmt": "2026-01-25T20:09:57",
+      "guid": {
+        "rendered": "https://streetcarsuburbs.news/?p=51316"
+      },
+      "modified": "2026-01-25T16:24:12",
+      "modified_gmt": "2026-01-25T21:24:12",
+      "slug": "winter-storm-named-fern-continues-to-hit-route-1-corridor-with-snow-sleet-and-freezing-rain",
+      "status": "publish",
+      "type": "post",
+      "link": "https://streetcarsuburbs.news/winter-storm-named-fern-continues-to-hit-route-1-corridor-with-snow-sleet-and-freezing-rain/",
+      "title": {
+        "rendered": "Winter storm named Fern continues to hit Route 1 corridor with snow, sleet and freezing rain"
+      },
+      "excerpt": {
+        "rendered": "<p>A dangerous winter storm continued to bring a mix of snow, sleet and freezing rain across the metro region Sunday, as local jurisdictions mounted snow removal and emergency response efforts. In Laurel, College Park and Hyattsville, as well as much of Prince George’s County, the forecast called for heavy sleet accumulation Sunday afternoon, with as [&hellip;]</p>\n",
+        "protected": false
+      },
+      "author": 23,
+      "featured_media": 51319,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "categories": [
+        223,
+        3,
+        2827,
+        4,
+        429
+      ],
+      "tags": [
+        4405
+      ],
+      "coauthors": [
+        4401
+      ],
+      "jetpack_publicize_connections": [],
+      "jetpack_featured_media_url": "https://i0.wp.com/streetcarsuburbs.news/wp-content/uploads/2026/01/Hyattsville-MD-snow-2026-by-JFP_18.jpg?fit=2000%2C1333&ssl=1",
+      "jetpack-related-posts": [],
+      "jetpack_sharing_enabled": true,
+      "extraction": {
+        "key_people": [
+          "Aisha Braveboy, County Executive",
+          "Keith R. Sydnor, City Mayor",
+          "Fazlul Kabir, College Park Mayor"
+        ],
+        "organizations": [
+          "Prince George’s County",
+          "College Park Public Works Department",
+          "Neighbors Helping Neighbors"
+        ],
+        "locations": [
+          "Route 1 corridor",
+          "Laurel",
+          "College Park",
+          "Hyattsville",
+          "Chillum",
+          "Landover",
+          "Forestville",
+          "Main Street"
+        ],
+        "key_issues": [
+          "Winter storm response",
+          "Snow removal",
+          "Public safety",
+          "Emergency services"
+        ],
+        "category": "public_safety",
+        "ai_summary": "A winter storm named Fern brought a mix of snow, sleet, and freezing rain to the Route 1 corridor, prompting Prince George’s County to operate in 'Full Snow Operation Mode' and urge residents to avoid driving. County Executive Aisha Braveboy said, 'The county’s snow response operation is fully active. Crews are working around the clock to clear and treat the roadways and public safety remains are top priority.' College Park Mayor Fazlul Kabir reminded residents to report icy sidewalks and unsafe conditions to the city and to request help removing snow from their property if needed."
+      }
+    }
+  ]
+}
