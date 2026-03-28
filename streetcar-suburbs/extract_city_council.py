@@ -80,8 +80,8 @@ Content:
 
 Return this exact JSON structure with values filled in:
 {{
-  "key_people": ["list of names each formatted as 'Full Name, Title/Role' — always include the person's title or role, e.g. 'Ahmed Andrew, College Park City Councilmember' or 'Anita Johnson, Mayor of College Park'"],
-  "organizations": ["list of government agencies, departments, or institutions"],
+  "key_people": ["list of names each formatted as 'Full Name, Full Specific Title' — always include the full organization or jurisdiction in the title, e.g. 'Ahmed Andrew, College Park City Councilmember' or 'Anita Johnson, College Park Mayor' — never use bare titles like 'Mayor', 'Organizer', or 'Councilmember' alone without the organization — do NOT include the article's author in this list, only people mentioned in the article content"],
+  "organizations": ["list of government agencies, departments, or institutions mentioned in the article content — do NOT include the name of the publication or news outlet that published the article"],
   "locations": ["list of specific College Park neighborhoods, streets, or facilities"],
   "key_issues": ["list of 2-5 main policy issues or topics covered"],
   "category": "one of: zoning, budget, ordinance, infrastructure, education, public_safety, housing, transportation, environment, community, economic_development, arts_culture, health, other",
@@ -211,15 +211,15 @@ def main():
     )
     parser.add_argument(
         "--output",
-        default="extracted_city_council.json",
+        default="extracted_city_council_v2.json",
         type=Path,
-        help="Output JSON file path (default: extracted_city_council.json).",
+        help="Output JSON file path (default: extracted_city_council_v2.json).",
     )
     parser.add_argument(
         "--state-file",
-        default=".extract_city_council_state.json",
+        default=".extract_city_council_v2_state.json",
         type=Path,
-        help="State file for resuming interrupted runs (default: .extract_city_council_state.json).",
+        help="State file for resuming interrupted runs (default: .extract_city_council_v2_state.json).",
     )
     parser.add_argument(
         "--limit",
@@ -310,13 +310,8 @@ def main():
     if failed:
         console.print(f"  [yellow]Extraction failures: {failed}[/yellow]")
 
-    output_data = {
-        "total_articles": len(enriched_articles),
-        "model": args.model,
-        "articles": enriched_articles,
-    }
     with open(args.output, "w", encoding="utf-8") as f:
-        json.dump(output_data, f, indent=2, ensure_ascii=False)
+        json.dump(enriched_articles, f, indent=2, ensure_ascii=False)
 
     console.print(f"\nWrote {len(enriched_articles)} articles to [bold]{args.output}[/bold]")
 
