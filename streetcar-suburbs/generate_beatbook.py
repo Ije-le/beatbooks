@@ -91,6 +91,7 @@ def analyze(articles: list[dict]) -> dict:
     people_quotes: dict[str, list[str]] = defaultdict(list)
     org_quotes: dict[str, list[str]] = defaultdict(list)
     issue_quotes: dict[str, list[str]] = defaultdict(list)
+    people_titles: dict[str, str] = {}  # name -> most specific title seen
 
     dated_articles = []
     for article in articles:
@@ -104,6 +105,12 @@ def analyze(articles: list[dict]) -> dict:
                 people_counter[name] += 1
                 if summary:
                     people_quotes[name].append(summary)
+                # Extract title from "Name, Title" format
+                if "," in str(person_entry):
+                    title_part = str(person_entry).split(",", 1)[1].strip()
+                    # Keep the most descriptive title (longest)
+                    if title_part and (name not in people_titles or len(title_part) > len(people_titles[name])):
+                        people_titles[name] = title_part
 
         for org in ex.get("organizations", []):
             if not isinstance(org, str):
@@ -171,6 +178,7 @@ def analyze(articles: list[dict]) -> dict:
     return {
         "total": total,
         "people": people_counter,
+        "people_titles": people_titles,
         "orgs": org_counter,
         "locations": location_counter,
         "issues": issue_counter,
@@ -294,12 +302,13 @@ who has never covered this beat feel the pulse of it by the time they finish rea
 Write a section called "Top Recurring Issues" listing the 5-10 most significant
 policy issues on this beat. For each issue:
 - Give it a bold header
-- Explain what it is and why it keeps coming up
-- Note who the key players are
-- Include a confidence rating: HIGH / MEDIUM / LOW based on frequency
-- Quote or paraphrase one story summary as evidence where helpful
+- Tell the story of why it matters and why it keeps coming up
+- Note who the key players are and what's at stake
+- Quote or paraphrase a story summary as evidence where it strengthens the writing
 
-Be specific and journalistic. Skip issues with only 1-2 mentions.
+Do not reference how many times an issue appeared in the data or use any confidence
+ratings. Convey importance through context, consequence, and specificity — not counts.
+Write narratively. Each entry should feel alive, not like a database record.
 """,
 
         "power_map": f"""
@@ -307,13 +316,16 @@ Be specific and journalistic. Skip issues with only 1-2 mentions.
 
 Write a "Power Map" section covering the key people and institutions on this beat.
 
-For PEOPLE: List the top 8-10 individuals. For each, note their role, why they matter,
-how often they appear, and what issues they're associated with.
+For PEOPLE: Write about the top 8-10 individuals. For each, tell us who they are,
+why they matter on this beat, and what issues they're associated with. Write in
+full paragraphs, not bullet points. Do not mention how many times they appear in
+stories or reference any archive. Convey their significance through their role and
+the decisions they've shaped.
 
-For INSTITUTIONS: List the top 6-8 organizations. For each, explain their role in
-College Park governance and what they're pushing for or defending.
+For INSTITUTIONS: Cover the top 6-8 organizations. Explain their role in College
+Park governance and what they're pushing for or defending.
 
-Format each entry as a bold name followed by a short paragraph.
+Format each entry as a bold name followed by a narrative paragraph.
 """,
 
         "geographic_hotspots": f"""
@@ -336,14 +348,12 @@ should focus their geographic attention based on the issues present.
 
 Write a "Timeline and Trend Shifts" section covering how this beat has evolved.
 
-Address:
-- What topics are rising in recent coverage and why
-- What topics appear to be fading and what that might signal
-- What has remained persistently covered throughout
-- Any notable gaps in the timeline
+Address what topics are rising and why, what appears to be fading and what that
+signals, what has remained persistent, and any notable gaps.
 
-Be analytical. Avoid vague statements like "coverage has increased." Say specifically
-what changed, when, and what it means for a reporter working this beat today.
+Do not reference the archive, story counts, or data. Write as if you are a
+seasoned reporter who has watched this beat unfold over time. Be specific about
+what changed and what it means for a reporter working this beat today.
 """,
 
         "undercovered_angles": f"""
@@ -479,29 +489,25 @@ def build_markdown(sections: dict, findings: dict, articles: list[dict]) -> str:
         "",
         "---",
         "",
-        "## Appendix: Raw Frequency Data",
-        "",
-        "### Most Mentioned People",
+        "## Key People",
         "",
     ]
 
-    for name, count in findings["people"].most_common(20):
-        conf = confidence_label(count, total)
-        lines.append(f"- **{name}** — {count} mentions [{conf}]")
+    people_titles = findings.get("people_titles", {})
+    for name, _ in findings["people"].most_common(20):
+        title = people_titles.get(name, "")
+        if title:
+            lines.append(f"- **{name}**, {title}")
+        else:
+            lines.append(f"- **{name}**")
 
-    lines += ["", "### Most Mentioned Organizations", ""]
-    for org, count in findings["orgs"].most_common(15):
-        conf = confidence_label(count, total)
-        lines.append(f"- **{org}** — {count} mentions [{conf}]")
+    lines += ["", "## Key Organizations", ""]
+    for org, _ in findings["orgs"].most_common(15):
+        lines.append(f"- {org}")
 
-    lines += ["", "### Top Locations", ""]
-    for loc, count in findings["locations"].most_common(15):
-        lines.append(f"- {loc} — {count} mentions")
-
-    lines += ["", "### Category Breakdown", ""]
-    for cat, count in findings["categories"].most_common():
-        pct = round(count / total * 100) if total else 0
-        lines.append(f"- {cat}: {count} ({pct}%)")
+    lines += ["", "## Key Locations", ""]
+    for loc, _ in findings["locations"].most_common(15):
+        lines.append(f"- {loc}")
 
     lines += [""]
     return "\n".join(lines)
@@ -528,9 +534,9 @@ def main():
     )
     parser.add_argument(
         "--output",
-        default="beatbook_college_park_v2.md",
+        default="beatbook_college_park_v4.md",
         type=Path,
-        help="Output Markdown file (default: beatbook_college_park_v2.md).",
+        help="Output Markdown file (default: beatbook_college_park_v4.md).",
     )
     parser.add_argument(
         "--json-output",
