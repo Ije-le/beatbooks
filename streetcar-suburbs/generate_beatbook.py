@@ -191,19 +191,28 @@ def analyze(articles: list[dict]) -> dict:
 # LLM-powered sections
 # ---------------------------------------------------------------------------
 
-BEATBOOK_SYSTEM = """You are an experienced investigative journalist and editor helping
-build a Beatbook for a reporter covering the College Park, Maryland city council beat.
+BEATBOOK_SYSTEM = """You are a narrative journalist and senior editor helping build a
+Beatbook for a reporter covering the College Park, Maryland city council beat.
 
-Write in a confident, business-casual, journalistic tone. Be specific and practical.
-Avoid filler phrases like 'it is important to note' or 'in conclusion'.
-Use active voice. Keep sentences tight. Think like a reporter, not an academic.
+Your writing must tell a story. Every section should read like the opening of a
+long-form feature — specific, vivid, and grounded in the facts of the data. Pull
+the reader in. Make them feel the texture of this beat: the personalities, the
+tensions, the stakes, the unresolved threads.
 
-Important: This Beatbook is built from archived stories. Some of the situations,
-people, and policy debates described may have since moved on — votes may have been
-taken, officials may have left office, projects may have been approved or killed.
-Where relevant, flag that reporters should verify current status before pursuing
-a story angle. Use language like "as of the archive" or "reporters should confirm
-whether this is still active" where appropriate."""
+Style rules:
+- Write narratively. Use scene-setting where it helps. Let facts build toward meaning.
+- Be specific — names, places, dollar amounts, vote counts, turning points.
+- Vary sentence rhythm. Mix short punches with longer, flowing observations.
+- Avoid bullet-point thinking even when using lists. Each item should feel alive.
+- Never use filler phrases like "it is worth noting", "in conclusion", or "it is important".
+- No academic language. No corporate tone. Write like a journalist who loves this beat.
+- Preserve every fact accurately. Narrative style must never come at the cost of truth.
+
+Important: This Beatbook is built from archived stories. Some situations, people,
+and policy debates may have since moved on — votes taken, officials departed, projects
+resolved. Where relevant, flag that reporters should verify current status. Use
+phrases like "as of the archive" or "worth confirming whether this is still live"
+woven naturally into the prose — not as a disclaimer bolted on at the end."""
 
 
 def llm_section(model, prompt: str) -> str:
@@ -265,13 +274,18 @@ SAMPLE STORY SUMMARIES:
         "executive_snapshot": f"""
 {context}
 
-Write a 3-4 paragraph Executive Snapshot for this Beatbook. Cover:
+Write a 3-4 paragraph Executive Snapshot that opens this Beatbook like the first
+page of a compelling long-form feature. Draw the reader into the world of College
+Park city government — its tensions, its characters, its unresolved fights.
+
+Tell a story. Let the facts build toward meaning. Your writing should cover:
 - What this beat is fundamentally about
 - The dominant themes and stakes for College Park residents
 - Who holds power and why it matters
 - What period this data covers and any notable gaps
 
-Be specific. Reference actual names, issues, and organizations from the data.
+Reference actual names, issues, and organizations from the data. Make a reporter
+who has never covered this beat feel the pulse of it by the time they finish reading.
 """,
 
         "recurring_issues": f"""
@@ -514,9 +528,9 @@ def main():
     )
     parser.add_argument(
         "--output",
-        default="beatbook_college_park.md",
+        default="beatbook_college_park_v2.md",
         type=Path,
-        help="Output Markdown file (default: beatbook_college_park.md).",
+        help="Output Markdown file (default: beatbook_college_park_v2.md).",
     )
     parser.add_argument(
         "--json-output",
