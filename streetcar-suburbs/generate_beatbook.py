@@ -218,9 +218,20 @@ Style rules:
 
 Important: This Beatbook is built from archived stories. Some situations, people,
 and policy debates may have since moved on — votes taken, officials departed, projects
-resolved. Where relevant, flag that reporters should verify current status. Use
-phrases like "as of the archive" or "worth confirming whether this is still live"
-woven naturally into the prose — not as a disclaimer bolted on at the end."""
+resolved. Where relevant, flag that reporters should verify current status.
+
+Critical rules — failure to follow these undermines the Beatbook:
+- NEVER reference story counts, mention counts, or archive frequency. Do not write
+  phrases like "appears 82 times", "dominates the archive", "mentioned frequently",
+  or any variation. Convey importance through context and consequence only.
+- Do NOT add section headers or titles. The sections already have headers. Start
+  your response directly with the prose.
+- Cover the full picture — include controversies, failures, criticism, and accountability
+  moments alongside achievements. A councilmember who pushed bad policy or faced
+  backlash is as important to document as one who passed good legislation.
+- Only use roles and titles exactly as they appear in the source data. Do not
+  invent, upgrade, or alter anyone's title. If the data says "councilmember",
+  do not call them "mayor" or any other role."""
 
 
 def llm_section(model, prompt: str) -> str:
@@ -255,20 +266,19 @@ def build_analysis_prompt(section: str, findings: dict, articles: list[dict]) ->
     context = f"""
 DATASET: {total} College Park city council stories.
 
-TOP PEOPLE (name: count):
-{chr(10).join(f"  {name}: {count}" for name, count in top_people)}
+TOP PEOPLE:
+{chr(10).join(f"  {name}" for name, _ in top_people)}
 
 TOP ORGANIZATIONS:
-{chr(10).join(f"  {org}: {count}" for org, count in top_orgs)}
+{chr(10).join(f"  {org}" for org, _ in top_orgs)}
 
 TOP ISSUES:
-{chr(10).join(f"  {issue}: {count}" for issue, count in top_issues)}
+{chr(10).join(f"  {issue}" for issue, _ in top_issues)}
 
 TOP LOCATIONS:
-{chr(10).join(f"  {loc}: {count}" for loc, count in top_locations)}
+{chr(10).join(f"  {loc}" for loc, _ in top_locations)}
 
-CATEGORY BREAKDOWN:
-{chr(10).join(f"  {cat}: {count}" for cat, count in categories)}
+TOPIC AREAS: {', '.join(cat for cat, _ in categories)}
 
 RISING TOPICS: {', '.join(findings['rising']) or 'none detected'}
 FADING TOPICS: {', '.join(findings['fading']) or 'none detected'}
@@ -534,9 +544,9 @@ def main():
     )
     parser.add_argument(
         "--output",
-        default="beatbook_college_park_v4.md",
+        default="beatbook_college_park_v5.md",
         type=Path,
-        help="Output Markdown file (default: beatbook_college_park_v4.md).",
+        help="Output Markdown file (default: beatbook_college_park_v5.md).",
     )
     parser.add_argument(
         "--json-output",
