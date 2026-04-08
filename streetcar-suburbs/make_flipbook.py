@@ -65,21 +65,56 @@ def parse_sections(md: str) -> tuple[str, str, list[dict]]:
     return title, preamble, sections
 
 
-def split_content_into_pages(content: str, max_chars: int = 2400) -> list[str]:
-    """Split a long content block into pages at paragraph boundaries."""
+def _weighted_len(para: str) -> int:
+    """Return a height-weighted character count for a paragraph.
+
+    Headers and entry-headers take more vertical space than their raw
+    character count suggests, so we add a surcharge so pages containing
+    many of them get split earlier.
+    """
+    stripped = para.strip()
+    raw = len(stripped)
+    # Bold-only line → entry header (extra top margin + border + padding)
+    if re.match(r"^\*\*[^*]+\*\*\s*$", stripped):
+        return raw + 160
+    # ### subheader (extra top/bottom margin)
+    if stripped.startswith("### "):
+        return raw + 100
+    # ## section header
+    if stripped.startswith("## "):
+        return raw + 130
+    # Numbered or bullet list item
+    if re.match(r"^(\d+\.|[-•]) ", stripped):
+        return raw + 15
+    # Labeled paragraph (e.g. "Why now:", "Who to call:", "Status check:")
+    # Short label + colon at start adds a full line + margin despite low char count
+    if re.match(r"^[A-Za-z][^:\n]{2,25}:\s", stripped):
+        return raw + 45
+    return raw
+
+
+def split_content_into_pages(content: str, max_chars: int = 2450) -> list[str]:
+    """Split a long content block into pages at paragraph boundaries.
+
+    Uses weighted character counts so header-heavy pages are split earlier,
+    preventing visual overflow when overflow:hidden is set.
+    """
     paragraphs = re.split(r"\n{2,}", content)
     pages = []
     current = []
     current_len = 0
 
     for para in paragraphs:
-        if current_len + len(para) > max_chars and current:
+        if re.match(r"^-{3,}$", para.strip()):
+            continue  # skip standalone horizontal rules
+        weight = _weighted_len(para)
+        if current_len + weight > max_chars and current:
             pages.append("\n\n".join(current))
             current = [para]
-            current_len = len(para)
+            current_len = weight
         else:
             current.append(para)
-            current_len += len(para)
+            current_len += weight
 
     if current:
         pages.append("\n\n".join(current))
@@ -141,7 +176,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   :root {{
     --page-width: 680px;
     --page-height: 880px;
-    --bg: #1a1a2e;
+    --bg: #666666;
     --paper: #fdf6e3;
     --paper-shadow: #c8b89a;
     --ink: #2c2c2c;
@@ -263,18 +298,13 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
   /* Page content */
   .page-inner {{
-    padding: 48px 52px 40px 52px;
+    padding: 42px 46px 33px 46px;
     height: 100%;
-    overflow-y: auto;
+    overflow: hidden;
     color: var(--ink);
-    line-height: 1.75;
-    font-size: 0.93rem;
-    scrollbar-width: thin;
-    scrollbar-color: var(--paper-shadow) transparent;
+    line-height: 1.68;
+    font-size: 0.85rem;
   }}
-
-  .page-inner::-webkit-scrollbar {{ width: 4px; }}
-  .page-inner::-webkit-scrollbar-thumb {{ background: var(--paper-shadow); border-radius: 2px; }}
 
   .page-inner p {{ margin-bottom: 1em; }}
   .page-inner h2 {{
@@ -289,11 +319,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   .page-inner h3 {{
     font-size: 1.05rem;
     color: #5a3010;
-    margin: 1.2em 0 0.5em;
+    margin: 0.9em 0 0.5em;
     font-weight: bold;
   }}
   .page-inner p.entry-header {{
-    margin-top: 1.4em;
+    margin-top: 1.0em;
     margin-bottom: 0.3em;
     color: var(--accent);
     font-size: 1rem;
@@ -421,6 +451,16 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     padding: 48px 52px;
     background: var(--toc-bg);
   }}
+  .toc-notice {{
+    font-size: 0.78rem;
+    color: #888;
+    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    border-left: 3px solid #d4c4aa;
+    padding-left: 10px;
+  }}
+
   .toc-title {{
     font-size: 1.2rem;
     font-weight: bold;
@@ -540,10 +580,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <button class="nav-btn" id="prevBtn" onclick="flipPage(-1)">&#8592;</button>
 <button class="nav-btn" id="nextBtn" onclick="flipPage(1)">&#8594;</button>
 
-<div class="nav">
-  <span class="page-indicator" id="pageIndicator">Page 1 of {total_pages}</span>
-</div>
-
 <div class="chapter-nav" id="chapterNav">
   {chapter_pills}
 </div>
@@ -589,8 +625,6 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   }}
 
   function updateUI() {{
-    document.getElementById('pageIndicator').textContent =
-      'Page ' + (current + 1) + ' of ' + TOTAL;
     document.getElementById('prevBtn').disabled = current === 0;
     document.getElementById('nextBtn').disabled = current === TOTAL - 1;
 
@@ -646,7 +680,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 def build_page(content_html: str, page_num: int, extra_class: str = "") -> str:
     cls = ("page " + extra_class).strip()
     active = " active" if page_num == 0 else ""
-    footer = f'<div class="page-footer">{page_num + 1}</div>'
+    footer = f'<div class="page-footer">{page_num}</div>'
     return (
         f'<div class="{cls}{active}" id="page-{page_num}">\n'
         f'  <div class="page-inner">{content_html}</div>\n'
@@ -656,8 +690,10 @@ def build_page(content_html: str, page_num: int, extra_class: str = "") -> str:
 
 
 def build_cover(title: str, preamble: str) -> str:
-    meta_html = md_to_html(preamble) if preamble else ""
-    tagline = "A reporter\u2019s guide to the people, places, and persistent fights shaping one of Maryland\u2019s most dynamic university cities."
+    # Strip blockquote (the editorial note) from the cover preamble
+    preamble_no_note = re.sub(r"^> .+$", "", preamble, flags=re.MULTILINE).strip()
+    meta_html = md_to_html(preamble_no_note) if preamble_no_note else ""
+    tagline = "A reporter\u2019s guide to the people, places, and persistent issues shaping one of Maryland\u2019s most dynamic university cities."
     html = (
         f'<div class="cover-title">{title}</div>'
         f'<div class="cover-divider"></div>'
@@ -682,7 +718,12 @@ def build_toc(sections: list[dict], page_map: dict) -> str:
             f'<span class="toc-item-page">{pg + 1}</span>'
             f'</div>\n'
         )
-    return f'<div class="toc-title">Contents</div>\n{items}'
+    notice = (
+        '<p class="toc-notice">This beatbook is built from archived stories. '
+        'Some situations, people, and policy debates described here may have since changed, '
+        'been resolved, or been overtaken by events. Verify any story angle before pursuing it.</p>\n'
+    )
+    return f'<div class="toc-title">Contents</div>\n{notice}{items}'
 
 
 def make_flipbook(input_path: Path, output_path: Path):
@@ -703,7 +744,7 @@ def make_flipbook(input_path: Path, output_path: Path):
     pages_html += (
         f'<div class="page page-toc" id="page-{page_index}">'
         f'<div class="page-inner">{toc_placeholder}</div>'
-        f'<div class="page-footer">{page_index + 1}</div>'
+        f'<div class="page-footer">{page_index}</div>'
         f'</div>\n'
     )
     toc_page_index = page_index
@@ -749,7 +790,6 @@ def make_flipbook(input_path: Path, output_path: Path):
         f'  <div class="page-inner">\n'
         f'    <div class="back-cover-date">Generated {month_year}</div>\n'
         f'  </div>\n'
-        f'  <div class="page-footer">{page_index + 1}</div>\n'
         f'</div>\n'
     )
     pages_html += back_cover_html

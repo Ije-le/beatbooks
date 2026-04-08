@@ -169,10 +169,6 @@ PG county's Board of Education controls school policy affecting College Park fam
 
 Article Student Living, Branchville Crossing backers, RST Development's Flats at College Park — face consistent council pressure to include affordable units. The city's tax incentive program makes affordability the price of cooperation. These companies navigate that demand while trying to make projects financially viable.
 
-**State Highway Administration and transportation agencies** 
-
-They control infrastructure that affects College Park daily but sits beyond city control. SHA's noise mitigation decisions matter for Edmonston Road. The Old Calvert Road bridge needs state coordination. Route 1 and Baltimore Avenue projects require state approval and funding. The city is often in a lobbying posture rather than the driver's seat on these.
-
 **College Park Restorative Justice Commission** 
 
 The commission, chaired by Maxine Gross, 20 members strong — is the body pushing the city to move from symbolic acknowledgment of Lakeland's displacement to material reparations. Their recommendations include financial compensation, housing priority, and free college tuition for those who lived there for at least 10 years. They are still waiting for the council to act.
@@ -265,11 +261,11 @@ The financial architecture beneath affordable housing stays unexplained. Branchv
 
 The Prince George's County Police Department's relationship with College Park gets named but not examined. When the council talks about cameras and blue light phones instead of a city force, what does enforcement actually look like day-to-day? How quickly do county officers respond to College Park calls? Do residents in North College Park get the same service as those in Berwyn? The council talks about safety constantly; the mechanics of who actually provides it stay underreported.
 
-Route 1 and Baltimore Avenue appear as location markers but never get treated as subjects. What do businesses along the corridor actually earn? How many are locally owned? When Wonder's arrival is called a milestone, does that mean previous retail recruitment failed — and why? The corridor shapes the tax base and the city's identity, but coverage stays relentlessly event-based rather than treating the strip as a story in itself.
+Route 1/Baltimore Avenue appear as location markers but never get treated as subjects. What do businesses along the corridor actually earn? How many are locally owned? When Wonder's arrival is called a milestone, does that mean previous retail recruitment failed — and why? The corridor shapes the tax base and the city's identity, but coverage stays relentlessly event-based rather than treating the strip as a story in itself.
 
 ---
 
-## 25 Story Ideas
+## Story Ideas
 
 **1. When the Task Force Report Gathers Dust: What Happened to College Park's Child Care Plan?**
 
@@ -295,19 +291,7 @@ Status check: Confirm the fund still exists and get current disbursement numbers
 
 ---
 
-**3. The Three-Vote Margin: How Kelly Jordan's Recount Changed District 2**
-
-Kelly Jordan beat Chris Gill by three votes after a hand recount. What happened in her first months? Did the razor-thin margin shape how she governs? Talk to voters who split between Jordan and Gill.
-
-Why now: Enough time has passed to assess whether a contested election produced different leadership than a comfortable win would have.
-
-Who to call: Kelly Jordan, Chris Gill, Holly Simmons, District 2 residents.
-
-Status check: Verify Jordan is still serving and whether any election fallout affected her tenure.
-
----
-
-**4. Speed Bumps vs. Broken Hips: The Traffic Calming Dilemma**
+**3. Speed Bumps vs. Broken Hips: The Traffic Calming Dilemma**
 
 Former Councilmember John Rigg, a volunteer paramedic, voted against speed humps on Autoville Drive because they cause pain to patients with fractures. Residents wanted traffic calming. Map out where this conflict plays out across College Park — and whether the city designs streets for drivers, pedestrians, or ambulances.
 
@@ -319,7 +303,7 @@ Status check: Confirm whether any new traffic calming proposals have moved forwa
 
 ---
 
-**5. The Lakeland Reparations Ledger: What College Park Owes and Won't Say**
+**4. The Lakeland Reparations Ledger: What College Park Owes and Won't Say**
 
 The Restorative Justice Commission laid out a plan: financial compensation, housing priority, free tuition. The council said it would "discuss" the proposals. Track what happened — and whether the city has spent a single dollar or just held more meetings.
 
@@ -331,7 +315,7 @@ Status check: Verify whether the commission still exists and if any reparations 
 
 ---
 
-**6. The Annexation Appetite: Why College Park Wants to Swallow BARC**
+**5. The Annexation Appetite: Why College Park Wants to Swallow BARC**
 
 City officials are eyeing the soon-to-be-vacant Beltsville Agricultural Research Center for annexation. Hernandez says it's about giving residents "much more of a say" in development. But is it really about control, tax base, or blocking unwanted projects? Map the annexation targets and the politics behind them.
 
@@ -343,19 +327,7 @@ Status check: Confirm BARC's current status and whether annexation talks have ad
 
 ---
 
-**7. From $10K to $20K: Did Doubling Council Pay Change Who Runs?**
-
-The council considered doubling members' salaries from $10,000 to $20,000. If it passed, did it work? Profile who ran in the next election cycle and whether younger or working-class candidates felt the difference.
-
-Why now: Election cycles provide natural benchmarks to test whether pay changes diversified the candidate pool.
-
-Who to call: Jacob Hernandez, Ray Ranker, recent candidates, residents who considered running but didn't.
-
-Status check: Verify whether the pay increase was approved and if a subsequent election shows any impact.
-
----
-
-**8. The Vacant Property Registry Nobody's Using**
+**6. The Vacant Property Registry Nobody's Using**
 
 The city passed an ordinance requiring vacant property owners to register for $25. How many registered? How many ignored it? How much has the city collected in fines? Find the buildings that slipped through and the owners who gambled the city wouldn't enforce.
 
@@ -367,7 +339,7 @@ Status check: Get current registration data and verify the ordinance is still in
 
 ---
 
-**9. The 16-Year-Old Electorate: Did Teen Voting Change Anything?**
+**7. The 16-Year-Old Electorate: Did Teen Voting Change Anything?**
 
 Six teenagers voted in the first election after College Park lowered the voting age to 16. Track them down. Ask what they voted on and whether they're still engaged. How many 16- and 17-year-olds voted in the next cycle?
 
@@ -379,7 +351,7 @@ Status check: Verify youth voting is still allowed and get turnout data from sub
 
 ---
 
-**10. The Wonder Hall Honeymoon: One Year Later**
+**8. The Wonder Hall Honeymoon: One Year Later**
 
 Former Councilmember John Rigg said Wonder "hit it out of the park." Kabir called it a milestone. A year later, is it thriving or struggling? Are UMD students actually going? Has it changed foot traffic on Baltimore Avenue?
 
@@ -391,7 +363,7 @@ Status check: Confirm Wonder is still operating and has been open long enough fo
 
 ---
 
-**11. The PGCMA Embezzlement Fallout: Did College Park Ever Rejoin?**
+**9. The PGCMA Embezzlement Fallout: Did College Park Ever Rejoin?**
 
 The city paused its membership in the Prince George's County Municipal Association after a treasurer allegedly embezzled over $30,000. Did the city return? Did PGCMA rebuild trust? Or did College Park go it alone — and what did that cost in regional influence?
 
@@ -403,7 +375,7 @@ Status check: Verify whether College Park renewed membership and whether PGCMA c
 
 ---
 
-**12. The Paint Branch Immersion Program: Did the Letter Save It?**
+**10. The Paint Branch Immersion Program: Did the Letter Save It?**
 
 The council sent a letter supporting Chinese immersion at Paint Branch Elementary when budget cuts threatened it. Did it work? Is the program still running? Talk to parents who stayed, teachers who survived, and families who left.
 
@@ -415,7 +387,7 @@ Status check: Confirm the program's current status.
 
 ---
 
-**13. The Early Lease Ordinance in Practice: Are Landlords Playing by the Rules?**
+**11. The Early Lease Ordinance in Practice: Are Landlords Playing by the Rules?**
 
 The city banned landlords from seeking lease renewals before 180 days from lease end. Have landlords complied? Interview current students. Check whether the city has issued any $500 or $2,500 fines.
 
@@ -427,19 +399,7 @@ Status check: Verify the ordinance is still in effect and get enforcement data.
 
 ---
 
-**14. Joseline Peña-Melnyk's Speaker Rise: What Does College Park Gain?**
-
-A former College Park councilmember is now Speaker of the Maryland House. Has she delivered funding, intervened on housing bills, or used her position to benefit her hometown? Track her votes and asks since taking the gavel.
-
-Why now: Speakers wield enormous power; residents should know if their hometown connection is paying dividends.
-
-Who to call: Joseline Peña-Melnyk, Mayor Kabir, state delegates, city staff who track state legislation.
-
-Status check: Confirm she's still Speaker and identify any College Park-specific legislation or funding she's championed.
-
----
-
-**15. The Old Calvert Road Bridge: Did It Ever Get Built?**
+**12. The Old Calvert Road Bridge: Did It Ever Get Built?**
 
 The council endorsed a $2 million bridge connecting Old Calvert Road Park to the Northeast Branch Trail. Ranker said the community had waited at least 10 years. Did it happen? If not, what's the holdup?
 
@@ -451,19 +411,7 @@ Status check: Verify whether the bridge was built, is under construction, or was
 
 ---
 
-**16. The Noise Wall That Never Came: Edmonston Road Residents Still Waiting**
-
-RK&K found traffic noise on Edmonston Road warranting detailed study and state mitigation. Did SHA follow through? Are residents still suffering?
-
-Why now: State agencies move slowly; residents deserve to know if their complaints led to action.
-
-Who to call: Ray Ranker, Maria Cordone (resident), State Highway Administration, city environmental staff.
-
-Status check: Verify whether SHA completed any follow-up study or mitigation.
-
----
-
-**17. The School Bus Stop Safety Committee's Outrage: Seven Years Later**
+**13. The School Bus Stop Safety Committee's Outrage: Seven Years Later**
 
 Donald Hays called it "an outrage" that the city hadn't acted on recommendations for safer bus stops. Seven recommendations, seven stops. What's the scorecard now?
 
@@ -475,7 +423,7 @@ Status check: Get current status on each of the seven recommended stop upgrades.
 
 ---
 
-**18. The Article Student Living Deal: Did Affordable Units Make the Cut?**
+**14. The Article Student Living Deal: Did Affordable Units Make the Cut?**
 
 Mayor Kabir pushed Article Student Living to include affordable units in the 192-unit Guilford Drive project. What happened? Did Article take the deal? Are there affordable units, or did they build market-rate and walk away?
 
@@ -487,7 +435,7 @@ Status check: Verify the project's construction status and whether affordable un
 
 ---
 
-**19. The Fine Increase Ordinance: Has College Park Started Hitting Hard?**
+**15. The Fine Increase Ordinance: Has College Park Started Hitting Hard?**
 
 The city introduced an ordinance hiking fines up to $5,000 for construction, fire safety, housing, noise, and unruly gathering violations. Did it pass? Has the city actually used the higher fines — or is it still handing out $100 tickets?
 
@@ -499,7 +447,7 @@ Status check: Confirm the ordinance passed and get data on violations and fines 
 
 ---
 
-**20. The Permit Parking Expansion: Who Paid, Who Protested?**
+**16. The Permit Parking Expansion: Who Paid, Who Protested?**
 
 The council considered expanding permit parking and possibly charging for it. What happened? Did more streets get restricted? Did the city start charging?
 
@@ -511,19 +459,7 @@ Status check: Verify whether restrictions expanded and if any permit fees were i
 
 ---
 
-**21. UMD Students and Neighborhood Tensions: Did the City Follow Frances Chen's Plan?**
-
-Three students presented on "studentification" and suggested deep university-city cooperation to ease neighborhood tensions. Did anything change? Does UMD have a program now? Are things better or worse?
-
-Why now: Neighborhood-student conflicts persist every semester; time to see if the city and university actually acted.
-
-Who to call: Frances Chen, Nicholas Crane, Ashna Pandya, Alan Hew, UMD student affairs, residents in student-heavy neighborhoods.
-
-Status check: Verify whether UMD implemented any new neighbor education programs.
-
----
-
-**22. Branchville Crossing Senior Housing: Did 87 Affordable Units Open?**
+**17. Branchville Crossing Senior Housing: Did 87 Affordable Units Open?**
 
 The council approved an 87-unit senior apartment building on Branchville Road with rent at 60% of area median income. Did it open? Is it full? Are College Park seniors living there?
 
@@ -535,7 +471,7 @@ Status check: Verify the building's construction and occupancy status.
 
 ---
 
-**23. The Veo Scooter Parking Crackdown: Did $60 Fines Stop the Chaos?**
+**18. The Veo Scooter Parking Crackdown: Did $60 Fines Stop the Chaos?**
 
 Veo started charging extra for bad parking and fining riders up to $60 for repeat violations after ridership jumped 62%. Are scooters still blocking sidewalks? Are students paying the fines or ditching Veo?
 
@@ -544,27 +480,3 @@ Why now: Micromobility remains a flashpoint; enforcement data shows whether pena
 Who to call: Alex Posorske (Veo policy manager), Mayor Kabir, pedestrians and disability advocates, UMD students who ride Veo.
 
 Status check: Get current complaint and fine data from both Veo and the city.
-
----
-
-**24. The Younger Council Effect: Did New Perspectives Change Anything?**
-
-Daniel Oates, Kelly Jordan, and Holly Simmons brought younger voices to the council. Have they voted differently than predecessors? Pushed new ideas? Or fallen in line with the status quo?
-
-Why now: Enough meetings have passed to track voting records and initiatives.
-
-Who to call: Daniel Oates, Kelly Jordan, Holly Simmons, Jacob Hernandez, Ray Ranker, residents who watch meetings regularly.
-
-Status check: Review recent meeting agendas and votes to identify whether newer members have distinct policy priorities.
-
----
-
-**25. From Wonder to Worry: Is Baltimore Avenue Actually Thriving?**
-
-The city landed Wonder, pushed for affordable senior housing, pressured Article for mixed-income student housing. Is Baltimore Avenue — the "epicenter of downtown College Park" — actually adding jobs, residents, and vitality? Or just press releases?
-
-Why now: Economic development needs longitudinal assessment, not ribbon-cutting coverage.
-
-Who to call: Michael Williams, business owners on Baltimore Avenue, UMD students who live and shop there, residents in adjacent neighborhoods.
-
-Status check: Get current vacancy rates, business turnover data, and foot traffic studies to measure real economic health.
