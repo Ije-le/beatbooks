@@ -69,85 +69,165 @@ Veo electric scooters and bikes saw 62% ridership growth between fall 2024 and f
 
 ## Key Players
 
-**Fazlul Kabir** — Mayor of College Park. Kabir served six terms on the council before running for mayor after Patrick Wojahn's resignation and arrest. He's the steady hand on College Park's most contested issues: affordable housing, sustainability goals, economic development, and city finances. When Trump administration cuts threatened residents, he doubled the city's financial assistance budget to $100,000. He pushed Article Student Living to include affordable units and champions Veo's micromobility program. His approach is careful — he rarely picks fights — but his framing shapes which proposals move.
+**Fazlul Kabir — Mayor of College Park**
 
-**Jacob Hernandez** — District 1 Councilmember. Hernandez asks the hard questions. When the Prince George's County Municipal Association's former treasurer allegedly embezzled over $30,000, he asked bluntly why taxpayers should fund "an organization that is clearly lacking integrity." He pushed for doubling councilmember pay to attract more candidates, backed annexation strategy, supported the vacant property registry, and praised Principal Carlos Johnson at Hollywood Elementary for going "above and beyond." His range spans governance reform, economic development, and constituent services.
+Kabir served six terms on the council before running for mayor after Patrick Wojahn's resignation and arrest. He's the steady hand on College Park's most contested issues: affordable housing, sustainability goals, economic development, and city finances. When Trump administration cuts threatened residents, he doubled the city's financial assistance budget to $100,000. He pushed Article Student Living to include affordable units and champions Veo's micromobility program. His approach is careful — he rarely picks fights — but his framing shapes which proposals move.
 
-**Alan Hew** — District 1 Councilmember. Hew is the council's resident policing expert. He graduated from three citizen police academies — Prince George's County, University of Maryland, and the Sheriff's Office — wanting "to be able to speak confidently in support of the departments that operate within our city." He pushed back on student-neighborhood tensions, arguing UMD should take responsibility for teaching students "how to be good neighbors." His public safety expertise and town-gown focus make him a key voice on both fronts.
+**Jacob Hernandez — District 1 Councilmember**
 
-**Holly Simmons** — District 2 Councilmember. Simmons ran for the District 2 seat alongside Kelly Jordan, winning alongside her in the same election. She's been a consistent voice on restorative justice for Lakeland, calling reparations "very important." She previously worked as deputy zoning manager for Rockville, giving her development experience relevant to College Park's housing fights.
+Hernandez asks the hard questions. When the Prince George's County Municipal Association's former treasurer allegedly embezzled over $30,000, he asked bluntly why taxpayers should fund "an organization that is clearly lacking integrity." He pushed for doubling councilmember pay to attract more candidates, backed annexation strategy, supported the vacant property registry, and praised Principal Carlos Johnson at Hollywood Elementary for going "above and beyond." His range spans governance reform, economic development, and constituent services.
 
-**Kelly Jordan** — District 2 Councilmember. Jordan won her seat by three votes over Christopher Gill after a hand recount — one of the closest elections in College Park history. She campaigned on ensuring "lots of different interests" get heard. She's been outspoken on senior housing, pushing for Branchville Crossing: "There is a real need for senior housing in College Park." She brings questions about utility bills, school quality, parks, and safety. Her roots in civic life (she co-led the Berwyn District Civic Association before winning office) give her strong neighborhood connections.
+**Alan Hew — District 1 Councilmember**
 
-**Daniel Oates** — District 3 Councilmember. Oates ran District 3 unopposed. He's part of the younger cohort that shifted the council's energy — as he put it, new people bring "different experiences and perspectives." On public safety, he's measured: "I think jumping to the answer of 'we need a police force' is premature." He's part of the council bloc tracking how newer members' priorities are actually shaping policy.
+Hew is the council's resident policing expert. He graduated from three citizen police academies — Prince George's County, University of Maryland, and the Sheriff's Office — wanting "to be able to speak confidently in support of the departments that operate within our city." He pushed back on student-neighborhood tensions, arguing UMD should take responsibility for teaching students "how to be good neighbors." His public safety expertise and town-gown focus make him a key voice on both fronts.
 
-**Ray Ranker** — District 3 Councilmember. Ranker is the infrastructure champion — he's been pushing for the Old Calvert Road bridge connecting to the Northeast Branch Trail for as long as anyone can remember. When the council finally endorsed it, he said: "We don't want to spend another month waiting, we want to get construction started tomorrow." He also proposed trees and shrubs to mitigate Kenilworth Avenue noise, suggested cameras and blue light phones over a city police force, and simply acknowledged that higher pay would attract more council candidates.
+**Holly Simmons — District 2 Councilmember**
 
-**Maria Mackie** — District 4 Councilmember. Mackie represents District 4 alongside Denise Mitchell. She's part of the current council working through the governance and housing agenda.
+Simmons ran for the District 2 seat alongside Kelly Jordan, winning alongside her in the same election. She's been a consistent voice on restorative justice for Lakeland, calling reparations "very important." She previously worked as deputy zoning manager for Rockville, giving her development experience relevant to College Park's housing fights.
 
-**Denise Mitchell** — District 4 Councilmember. Mitchell stepped up as pro tem mayor after Patrick Wojahn's resignation and arrest, holding that role until Kabir won the special election. Back as District 4 councilmember, she guards the city's vision on affordable housing. When Article Student Living presented plans for Guilford Drive, she was unequivocal: "We have a vision moving forward, and we're not going to negate that vision." She's a reliable vote for pushing developers to include income-restricted units.
+**Kelly Jordan — District 2 Councilmember**
 
-**Maxine Gross** — Chairs the Restorative Justice Commission and leads the Lakeland Community Heritage Project. She speaks for displaced residents with moral authority the council doesn't have. "When you talk to people who experienced Lakeland before urban renewal, they speak of a vibrant community." The murals, the commission's recommendations, the years of advocacy — all run through her. Any story about equity or displacement in College Park requires her voice.
+Jordan won her seat by three votes over Christopher Gill after a hand recount — one of the closest elections in College Park history. She campaigned on ensuring "lots of different interests" get heard. She's been outspoken on senior housing, pushing for Branchville Crossing: "There is a real need for senior housing in College Park." She brings questions about utility bills, school quality, parks, and safety. Her roots in civic life (she co-led the Berwyn District Civic Association before winning office) give her strong neighborhood connections.
 
-**Joseline Peña-Melnyk** — Now Maryland House Speaker, previously a College Park councilmember. She's pushing Governor Wes Moore's housing density bill hard, arguing Maryland needs 100,000 more homes and "more housing choices. Smaller homes. Townhouses. Accessory dwelling units." Her rise from local council to state house speaker shows how College Park politics can feed into statewide power. Her support for the density bill doesn't mean the city agrees — Rosapepe and Dernoga both have reservations.
+**Daniel Oates — District 3 Councilmember**
 
-**Patrick Wojahn** — Former Mayor of College Park. Wojahn resigned the night before his arrest on March 2. He was convicted on 60 counts of distribution of child pornography and is serving 30 years of a 150-year sentence. Denise Mitchell served as pro tem mayor until a special election brought Kabir to the office. His case remains relevant context for understanding the current council's need to reestablish public trust.
+ Oates ran District 3 unopposed. He's part of the younger cohort that shifted the council's energy — as he put it, new people bring "different experiences and perspectives." On public safety, he's measured: "I think jumping to the answer of 'we need a police force' is premature." He's part of the council bloc tracking how newer members' priorities are actually shaping policy.
 
-**Michael Williams** — Economic Development Director. Williams positioned Wonder food hall as fitting "the epicenter of downtown College Park." He knows what developers are circling, what incentives the city has offered, and what projects died quietly. Check his office for early signals before proposals reach public hearings.
+**Ray Ranker — District 3 Councilmember**
 
-**Jatinder Khokhar** — Director of Public Services. Khokhar oversees code enforcement and presented the plan to increase violation fines up to $5,000 — aligning city penalties with state law. His work covers construction, fire safety, housing, noise, and unruly gatherings. When enforcement changes, he's drafting it.
+ Ranker is the infrastructure champion — he's been pushing for the Old Calvert Road bridge connecting to the Northeast Branch Trail for as long as anyone can remember. When the council finally endorsed it, he said: "We don't want to spend another month waiting, we want to get construction started tomorrow." He also proposed trees and shrubs to mitigate Kenilworth Avenue noise, suggested cameras and blue light phones over a city police force, and simply acknowledged that higher pay would attract more council candidates.
 
-**Kenny Young** — City Manager. Young handles day-to-day operations. When council decisions reach implementation, he's the one making sure they actually happen.
+**Maria Mackie — District 4 Councilmember**
+
+ Mackie represents District 4 alongside Denise Mitchell. She's part of the current council working through the governance and housing agenda.
+
+**Denise Mitchell — District 4 Councilmember**
+
+ Mitchell stepped up as pro tem mayor after Patrick Wojahn's resignation and arrest, holding that role until Kabir won the special election. Back as District 4 councilmember, she guards the city's vision on affordable housing. When Article Student Living presented plans for Guilford Drive, she was unequivocal: "We have a vision moving forward, and we're not going to negate that vision." She's a reliable vote for pushing developers to include income-restricted units.
+
+**Maxine Gross**
+
+Chairs the Restorative Justice Commission and leads the Lakeland Community Heritage Project. She speaks for displaced residents with moral authority the council doesn't have. "When you talk to people who experienced Lakeland before urban renewal, they speak of a vibrant community." The murals, the commission's recommendations, the years of advocacy — all run through her. Any story about equity or displacement in College Park requires her voice.
+
+**Joseline Peña-Melnyk**
+
+Now Maryland House Speaker, previously a College Park councilmember. She's pushing Governor Wes Moore's housing density bill hard, arguing Maryland needs 100,000 more homes and "more housing choices. Smaller homes. Townhouses. Accessory dwelling units." Her rise from local council to state house speaker shows how College Park politics can feed into statewide power. Her support for the density bill doesn't mean the city agrees — Rosapepe and Dernoga both have reservations.
+
+**Patrick Wojahn**
+
+Former Mayor of College Park. Wojahn resigned the night before his arrest on March 2. He was convicted on 60 counts of distribution of child pornography and is serving 30 years of a 150-year sentence. Denise Mitchell served as pro tem mayor until a special election brought Kabir to the office. His case remains relevant context for understanding the current council's need to reestablish public trust.
+
+**Michael Williams**
+
+Economic Development Director. Williams positioned Wonder food hall as fitting "the epicenter of downtown College Park." He knows what developers are circling, what incentives the city has offered, and what projects died quietly. Check his office for early signals before proposals reach public hearings.
+
+**Jatinder Khokhar**
+
+Director of Public Services. Khokhar oversees code enforcement and presented the plan to increase violation fines up to $5,000 — aligning city penalties with state law. His work covers construction, fire safety, housing, noise, and unruly gatherings. When enforcement changes, he's drafting it.
+
+**Kenny Young**
+
+City Manager. Young handles day-to-day operations. When council decisions reach implementation, he's the one making sure they actually happen.
+
+**The Community Voices**
+
+The Berwyn District Civic Association and Calvert Hills Citizens Association represent homeowners who feel squeezed by rentals and density. They raise concerns early — permit parking, noise, new high-rises. They speak for the constituency that doesn't want College Park to become a dormitory suburb. Kelly Jordan co-led the Berwyn District Civic Association before winning office, giving her unusually strong roots in that constituency.
+
+Residents like Maria Cordone (Kenilworth Avenue noise complaints) and Donald Hays (school bus stop safety committee chair) don't let issues drop quietly. If someone shows up at meetings repeatedly with the same complaint, verify whether the city ever actually acted on it.
+
+Frances Chen, Nicholas Crane, and Ashna Pandya did student-led research on studentification and brought it to the council. Their work connected housing policy to university responsibility in a way officials hadn't articulated. Student voices like Nisha Kumar and Scott Tebbe — who testified about landlord pressure before the lease ordinance passed — show how community input drives policy more than meeting attendance numbers suggest.
 
 ---
 
 ## Key Organizations
 
-**College Park City Council** makes the core decisions shaping the city's future. The eight-member body has grown younger, with Daniel Oates, Kelly Jordan, and Holly Simmons joining alongside veterans like Kabir, Hernandez, and Hew. They've passed tenant protection ordinances, pushed developers on affordability, lowered the voting age, endorsed the Old Calvert Road bridge, and taken up restorative justice for Lakeland. They're navigating annexation talks, vacant property registries, noise ordinance enforcement, and how to support residents hit by federal job cuts.
+**College Park City Council** 
 
-**University of Maryland** dominates College Park's physical and economic landscape. Thousands of students reshape neighborhoods through high rents, tenant turnover, and tensions with long-term residents — a phenomenon the council calls "studentification." Three students presented research showing successful communities use "deep university and city cooperation," but councilmembers like Hew argue UMD should do more. The university partners on projects like the Lakeland murals but leaves many neighborhood problems for the city to solve. Its influence extends to school decisions (Paint Branch's Chinese immersion program draws UMD families), development pressure, and policing — UMD's own police department runs a citizen academy.
+The city council makes the core decisions shaping the city's future. The eight-member body has grown younger, with Daniel Oates, Kelly Jordan, and Holly Simmons joining alongside veterans like Kabir, Hernandez, and Hew. They've passed tenant protection ordinances, pushed developers on affordability, lowered the voting age, endorsed the Old Calvert Road bridge, and taken up restorative justice for Lakeland. They're navigating annexation talks, vacant property registries, noise ordinance enforcement, and how to support residents hit by federal job cuts.
 
-**Prince George's County** sets the broader policy context — from school board decisions on Paint Branch's immersion program to State Highway Administration noise studies on Kenilworth Avenue. County Councilmember Tom Dernoga's opposition to Moore's density bill reflects county-level resistance to state mandates. The county police department patrols College Park; County Executive Aisha Braveboy mobilizes snow crews. The Maryland-National Capital Park and Planning Commission shapes zoning decisions. College Park exists in this county web, sometimes aligned, sometimes pushing back.
+**University of Maryland** 
 
-**Prince George's County Municipal Association** hit a crisis when a former treasurer allegedly embezzled over $30,000. Hernandez called it "lacking integrity." PGCMA President Edouard Haba promised financial oversight committees and reviews. The association exists so small cities can "stand together and speak with one voice" — but whether College Park rejoins depends on PGCMA proving it can be trusted.
+The university dominates College Park's physical and economic landscape. Thousands of students reshape neighborhoods through high rents, tenant turnover, and tensions with long-term residents — a phenomenon the council calls "studentification." Three students presented research showing successful communities use "deep university and city cooperation," but councilmembers like Hew argue UMD should do more. The university partners on projects like the Lakeland murals but leaves many neighborhood problems for the city to solve. Its influence extends to school decisions (Paint Branch's Chinese immersion program draws UMD families), development pressure, and policing — UMD's own police department runs a citizen academy. Track UMD's housing policies, enrollment decisions, and community outreach separately from what councilmembers say about them — the institution is often the story behind the story.
 
-**Neighborhood civic associations** — Berwyn District, Calvert Hills, and others — show up repeatedly as organized homeowner voices pushing the council on hyperlocal issues. Donald Hays chaired the school bus stop safety subcommittee and called the years of inaction "an outrage." Calvert Hills residents pushed back on Kenilworth Avenue noise. These associations represent long-term homeowners often at odds with student renters or new construction.
+**Prince George's County** 
 
-**Prince George's County Board of Education** controls school policy affecting College Park families. The board's proposal to eliminate Paint Branch Elementary's Chinese immersion program drew council opposition and PTA mobilization. Principal Carlos Johnson at Hollywood Elementary secured a Coca-Cola donation of shoes and supplies for all 301 students — a moment that underlined the need that school fundraising still has to fill.
+The county sets the broader policy context — from school board decisions on Paint Branch's immersion program to State Highway Administration noise studies on Kenilworth Avenue. County Councilmember Tom Dernoga's opposition to Moore's density bill reflects county-level resistance to state mandates. The county police department patrols College Park; County Executive Aisha Braveboy mobilizes snow crews. The Maryland-National Capital Park and Planning Commission shapes zoning decisions. College Park exists in this county web, sometimes aligned, sometimes pushing back. For crime data, response times, and safety trends, go directly to county police — Alan Hew is the council liaison, but the department itself is the authoritative source.
 
-**Developers and housing companies** — Article Student Living, Branchville Crossing backers, RST Development's Flats at College Park — face consistent council pressure to include affordable units. The city's tax incentive program makes affordability the price of cooperation. These companies navigate that demand while trying to make projects financially viable.
+**Prince George's County Municipal Association** 
 
-**State Highway Administration and transportation agencies** control infrastructure that affects College Park daily but sits beyond city control. SHA's noise mitigation decisions matter for Edmonston Road. The Old Calvert Road bridge needs state coordination. Route 1 and Baltimore Avenue projects require state approval and funding. The city is often in a lobbying posture rather than the driver's seat on these.
+This association hit a crisis when a former treasurer allegedly embezzled over $30,000. Hernandez called it "lacking integrity." PGCMA President Edouard Haba promised financial oversight committees and reviews. The association exists so small cities can "stand together and speak with one voice" — but whether College Park rejoins depends on PGCMA proving it can be trusted.
 
-**College Park Restorative Justice Commission** — chaired by Maxine Gross, 20 members strong — is the body pushing the city to move from symbolic acknowledgment of Lakeland's displacement to material reparations. Their recommendations include financial compensation, housing priority, and free college tuition for those who lived there for at least 10 years. They are still waiting for the council to act.
+**Neighborhood civic associations** 
 
-**Lakeland Community Heritage Project** has worked for decades to preserve Lakeland's history and advocate for its displaced residents. The 10-mural project, budgeted at $28,382, represents the most visible recent output. It's not the same as reparations, but it keeps the history visible.
+Berwyn District, Calvert Hills, and others — show up repeatedly as organized homeowner voices pushing the council on hyperlocal issues. Donald Hays chaired the school bus stop safety subcommittee and called the years of inaction "an outrage." Calvert Hills residents pushed back on Kenilworth Avenue noise. These associations represent long-term homeowners often at odds with student renters or new construction.
+
+**Prince George's County Board of Education**
+
+PG county's Board of Education controls school policy affecting College Park families. The board's proposal to eliminate Paint Branch Elementary's Chinese immersion program drew council opposition and PTA mobilization. Principal Carlos Johnson at Hollywood Elementary secured a Coca-Cola donation of shoes and supplies for all 301 students — a moment that underlined the need that school fundraising still has to fill.
+
+**Developers and housing companies** 
+
+Article Student Living, Branchville Crossing backers, RST Development's Flats at College Park — face consistent council pressure to include affordable units. The city's tax incentive program makes affordability the price of cooperation. These companies navigate that demand while trying to make projects financially viable.
+
+**State Highway Administration and transportation agencies** 
+
+They control infrastructure that affects College Park daily but sits beyond city control. SHA's noise mitigation decisions matter for Edmonston Road. The Old Calvert Road bridge needs state coordination. Route 1 and Baltimore Avenue projects require state approval and funding. The city is often in a lobbying posture rather than the driver's seat on these.
+
+**College Park Restorative Justice Commission** 
+
+The commission, chaired by Maxine Gross, 20 members strong — is the body pushing the city to move from symbolic acknowledgment of Lakeland's displacement to material reparations. Their recommendations include financial compensation, housing priority, and free college tuition for those who lived there for at least 10 years. They are still waiting for the council to act.
+
+**Lakeland Community Heritage Project**
+
+The project has worked for decades to preserve Lakeland's history and advocate for its displaced residents. The 10-mural project, budgeted at $28,382, represents the most visible recent output. It's not the same as reparations, but it keeps the history visible.
 
 ---
 
 ## Key Places
 
-**Route 1 and Baltimore Avenue** are College Park's commercial spine. Nearly every major economic development decision, transit conversation, or student housing fight touches this corridor. Wonder's food hall landing on Baltimore Avenue was framed as validation of years of redevelopment work. The strip is also the backdrop for conversations about walkability, retail recruitment, and whether the city is becoming a destination or staying a pass-through. When councilmembers talk about making College Park viable economically, they're talking about Route 1.
+**Route 1/Baltimore Avenue** 
 
-**Lakeland** carries more weight than its physical size suggests. Urban renewal between 1969 and 1981 bulldozed a thriving community here. Now it's the center of the city's restorative justice reckoning, with 10 new murals, an active commission pushing for financial reparations, and Maxine Gross keeping the memory alive. Any story about equity, displacement, or what the city owes its past runs through Lakeland.
+This is College Park's commercial spine. Nearly every major economic development decision, transit conversation, or student housing fight touches this corridor. Wonder's food hall landing on Baltimore Avenue was framed as validation of years of redevelopment work. The strip is also the backdrop for conversations about walkability, retail recruitment, and whether the city is becoming a destination or staying a pass-through. When councilmembers talk about making College Park viable economically, they're talking about Route 1.
 
-**Edmonston Road** has become a flashpoint for noise and traffic mitigation. After the city removed trees between Edmonston Road and Kenilworth Avenue, residents found traffic noise unbearable. A city-commissioned RK&K study confirmed it was "clearly audible in front yards." Ray Ranker committed to replanting trees and shrubs for mitigation. The street illustrates how infrastructure decisions ripple — cut trees for one project, create a noise problem that takes years to fix.
+**Lakeland** 
 
-**North College Park, Calvert Hills, and Berwyn** are the established residential neighborhoods where student housing pressure plays out most directly. Three UMD students presented to the council about "studentification" — high rents, owner-occupied homes flipping to rentals, tensions with long-term residents. These neighborhoods represent the front line of the debate about preserving residential character while accommodating a large student population.
+Lakeland carries more weight than its physical size suggests. Urban renewal between 1969 and 1981 bulldozed a thriving community here. Now it's the center of the city's restorative justice reckoning, with 10 new murals, an active commission pushing for financial reparations, and Maxine Gross keeping the memory alive. Any story about equity, displacement, or what the city owes its past runs through Lakeland.
 
-**Guilford Drive** is where Article Student Living proposed its 192-unit student housing complex, replacing Hope Lutheran Church. The city pushed back for affordable units. A new, larger, accessible church space for the congregation is part of the deal. It's a case study in how the city tries to leverage development toward affordability goals — and how developers respond.
+**Edmonston Road**
 
-**Branchville Road** is where Branchville Crossing — an 87-unit senior apartment building for residents 62 and older at 60% area median income — is either under construction or completed. Kelly Jordan championed it. It's the city's clearest example of trying to diversify housing stock beyond student-focused development.
+This road has become a flashpoint for noise and traffic mitigation. After the city removed trees between Edmonston Road and Kenilworth Avenue, residents found traffic noise unbearable. A city-commissioned RK&K study confirmed it was "clearly audible in front yards." Ray Ranker committed to replanting trees and shrubs for mitigation. The street illustrates how infrastructure decisions ripple — cut trees for one project, create a noise problem that takes years to fix.
 
-**Old Calvert Road Park and the Northeast Branch Trail** are connected by a bridge the community has been asking for for at least a decade. The council endorsed the $2 million project. Ranker said residents didn't want to wait another month. Whether it's been built is the follow-up story.
+**North College Park, Calvert Hills, and Berwyn** 
 
-**The Beltsville Agricultural Research Center (BARC)** entered the conversation as a potential annexation target. Hernandez said the city was in "initial stages" of talks. If federal property becomes available and the city can annex it, College Park residents would have more say over what gets built there. It's an early-stage question that could become a major story.
+These are the established residential neighborhoods where student housing pressure plays out most directly. Three UMD students presented to the council about "studentification" — high rents, owner-occupied homes flipping to rentals, tensions with long-term residents. These neighborhoods represent the front line of the debate about preserving residential character while accommodating a large student population.
 
-**Paint Branch Elementary School and Hollywood Elementary School** both surfaced as places the council pays attention to despite having no direct control over county schools. The Chinese immersion fight drew a council letter and PTA mobilization. Hollywood's principal secured corporate donations for all 301 students' school supplies.
+**Guilford Drive** 
 
-**Attick Towers** is where Helen Reniere celebrated her 100th birthday and the council showed up to mark it. Small moment, but it points to where the city's older residents live and how the council maintains community connections.
+Guilford Drive is where Article Student Living proposed its 192-unit student housing complex, replacing Hope Lutheran Church. The city pushed back for affordable units. A new, larger, accessible church space for the congregation is part of the deal. It's a case study in how the city tries to leverage development toward affordability goals — and how developers respond.
 
-**City Hall** is the staging ground for the council meetings where all of this plays out — the tenant protection hearings packed with 30 students, the restorative justice presentations, the developer negotiations that happen partly in public.
+**Branchville Road**
+
+This road is where Branchville Crossing — an 87-unit senior apartment building for residents 62 and older at 60% area median income — is either under construction or completed. Kelly Jordan championed it. It's the city's clearest example of trying to diversify housing stock beyond student-focused development.
+
+**Old Calvert Road Park and the Northeast Branch Trail**
+
+These are connected by a bridge the community has been asking for for at least a decade. The council endorsed the $2 million project. Ranker said residents didn't want to wait another month. Whether it's been built is the follow-up story.
+
+**The Beltsville Agricultural Research Center (BARC)** 
+
+The BARC entered the conversation as a potential annexation target. Hernandez said the city was in "initial stages" of talks. If federal property becomes available and the city can annex it, College Park residents would have more say over what gets built there. It's an early-stage question that could become a major story.
+
+**Paint Branch Elementary School and Hollywood Elementary School**
+
+Both surfaced as places the council pays attention to despite having no direct control over county schools. The Chinese immersion fight drew a council letter and PTA mobilization. Hollywood's principal secured corporate donations for all 301 students' school supplies.
+
+**Attick Towers** 
+
+This is where Helen Reniere celebrated her 100th birthday and the council showed up to mark it. Small moment, but it points to where the city's older residents live and how the council maintains community connections.
+
+**City Hall** 
+
+City Hall is the staging ground for the council meetings where all of this plays out — the tenant protection hearings packed with 30 students, the restorative justice presentations, the developer negotiations that happen partly in public.
 
 ---
 
@@ -173,7 +253,7 @@ The persistent throughlines: housing pressure, student-resident friction, slow i
 
 ---
 
-## What's Missing
+## Reporting gaps
 
 The Paint Branch Elementary Chinese immersion story got documented when it became a crisis — but no one followed whether the program survived, whether families organized around it stayed or left, or what other programs across the county hang by similar threads. The education beat in College Park appears as isolated moments (shoes from Coca-Cola, council letters supporting schools) rather than a sustained look at how families experience the county's educational bureaucracy from inside city limits.
 
@@ -186,42 +266,6 @@ The financial architecture beneath affordable housing stays unexplained. Branchv
 The Prince George's County Police Department's relationship with College Park gets named but not examined. When the council talks about cameras and blue light phones instead of a city force, what does enforcement actually look like day-to-day? How quickly do county officers respond to College Park calls? Do residents in North College Park get the same service as those in Berwyn? The council talks about safety constantly; the mechanics of who actually provides it stay underreported.
 
 Route 1 and Baltimore Avenue appear as location markers but never get treated as subjects. What do businesses along the corridor actually earn? How many are locally owned? When Wonder's arrival is called a milestone, does that mean previous retail recruitment failed — and why? The corridor shapes the tax base and the city's identity, but coverage stays relentlessly event-based rather than treating the strip as a story in itself.
-
----
-
-## People to Know
-
-**The Officials Who Set the Agenda**
-
-Fazlul Kabir sits at the center. He frames issues before they reach debate — nudging developers toward affordable housing requirements, expanding emergency assistance when federal cuts bite, positioning College Park as a sustainability leader through Veo's ridership numbers. He's careful with language, rarely confrontational, but his framing matters. When he tells a developer "the catch is that you must have affordable housing in it," that's policy delivered as an invitation.
-
-Jacob Hernandez operates differently. He asks sharp questions that force clarity. When PGCMA's treasurer allegedly embezzled $30,000, he didn't hedge: "It's our taxpayer money... Why would we give money to an organization that is clearly lacking integrity?" He shows up beyond council too — praising a principal's community outreach, distributing shoes to students. He sees policy and people both.
-
-Alan Hew's three citizen police academy credentials make him the council's resident voice on public safety. He doesn't just repeat what officials say — he can explain how the county and university departments actually operate, which makes him a useful source on everything from patrol coverage to community-police dynamics.
-
-Ray Ranker has pushed the Old Calvert Road bridge for a decade. His value is patience turning into action — the long game of constituent advocacy. He also committed to the Edmonston Road tree replanting. When infrastructure stalls, he's the one keeping the pressure on.
-
-Denise Mitchell speaks for a vision the city won't compromise. On affordable housing, her clarity helps reporters understand where the city draws lines: "We have a vision moving forward, and we're not going to negate that vision." That finality shapes developer negotiations in ways that don't always surface in official meeting notes.
-
-Maxine Gross holds institutional memory the council sometimes lacks. She frames Lakeland's displacement not as history but as ongoing injustice. Any story about equity or reparations in College Park requires her voice — and her connections to the commission's full membership and to the broader Lakeland community.
-
-**The Institutional Checkpoints**
-
-Michael Williams runs economic development and knows what's coming before it reaches public hearings. He'll know which developers are circling BARC, which projects have quietly died, and which incentive deals the city has on the table. Check with him early.
-
-Jatinder Khokhar oversees public services, code enforcement, and the fines ordinance. When violations spike in a neighborhood, his department tracks them. When enforcement changes, he's the one drafting it.
-
-Prince George's County Police Department operates in College Park without a city force. Alan Hew is the council liaison, but for crime data, response time patterns, and safety trends, reporters need direct access to county police officials.
-
-The University of Maryland is often the elephant in the room. Its housing policies, enrollment numbers, campus-life operations, and community outreach programs — or the absence of them — shape College Park more than any other single institution. Track them separately from what the council says about them.
-
-**The Community Voices**
-
-The Berwyn District Civic Association and Calvert Hills Citizens Association show up repeatedly. They represent homeowners who feel squeezed by rentals and density. They'll raise concerns early — permit parking, noise, high-rises. They speak for the constituency that doesn't want College Park to become a dormitory suburb.
-
-Residents like Maria Cordone (Kenilworth Avenue noise complaints) and Donald Hays (school bus safety) don't let issues drop. If someone appears repeatedly at meetings with the same complaint, verify whether the city ever acted.
-
-Frances Chen, Nicholas Crane, and Ashna Pandya did student-led research on studentification and presented it to the council. Their work connected housing policy to university responsibility in a way officials hadn't articulated. Student voices like theirs drive policy more than the meeting counts suggest.
 
 ---
 
