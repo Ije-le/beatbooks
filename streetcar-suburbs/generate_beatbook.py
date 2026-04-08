@@ -231,7 +231,19 @@ Critical rules — failure to follow these undermines the Beatbook:
   backlash is as important to document as one who passed good legislation.
 - Only use roles and titles exactly as they appear in the source data. Do not
   invent, upgrade, or alter anyone's title. If the data says "councilmember",
-  do not call them "mayor" or any other role."""
+  do not call them "mayor" or any other role.
+- Formatting: whenever you use a bold name or bold header as an entry title, it
+  must appear on its own line, followed by a blank line, then the paragraph. Never
+  run a bold header and its paragraph together on the same line. Every named entry
+  must be separated from the next by a blank line. Example:
+
+  **Full Name, Title**
+
+  Their paragraph goes here.
+
+  **Next Person, Title**
+
+  Their paragraph goes here."""
 
 
 def llm_section(model, prompt: str) -> str:
@@ -335,7 +347,8 @@ the decisions they've shaped.
 For INSTITUTIONS: Cover the top 6-8 organizations. Explain their role in College
 Park governance and what they're pushing for or defending.
 
-Format each entry as a bold name followed by a narrative paragraph.
+Format each entry as a bold name on its own line, followed by a blank line,
+then a narrative paragraph, then a blank line before the next entry.
 """,
 
         "geographic_hotspots": f"""

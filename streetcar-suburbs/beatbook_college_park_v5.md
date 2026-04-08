@@ -94,8 +94,6 @@ A city-commissioned noise analysis on Edmonston Road found traffic "clearly audi
 
 # Power Map
 
-## People
-
 **Fazlul Kabir** leads College Park as mayor, navigating the city through everything from restorative justice debates to winter storms. He's served six previous terms on the council and now champions affordable housing, sustainability goals like the Veo scooter program, and economic development projects that range from the Wonder food hall to annexation talks about the Beltsville Agricultural Research Center. When Trump administration cuts threatened local residents, Kabir increased the city's financial assistance budget to $100,000. He pushed Article Student Living to include affordable units in their Guilford Drive proposal and reminded residents during Winter Storm Fern to report icy sidewalks through the city's interactive map. His vision for College Park hinges on expanding affordable housing while creating jobs and strengthening city finances.
 
 **Jacob Hernandez** brings urgency to accountability questions on the council. He pressed for pausing the city's membership in the Prince George's County Municipal Association after alleged embezzlement, asking bluntly why taxpayers should fund "an organization that is clearly lacking integrity." He's thinking about annexation strategy, noting the city would gain more say over what gets built on properties like BARC if they fell within city limits. Hernandez pushed for doubling councilmember pay from $10,000 to $20,000, arguing that while not extraordinary, it helps cover costs for people who "work incredibly hard." He supported the vacant property registry as a public safety measure and praised Principal Carlos Johnson at Hollywood Elementary for going "above and beyond" to build community relationships. His focus spans governance reform, economic development, and constituent services.
@@ -214,7 +212,6 @@ The gaps are notable: enforcement outcomes remain murky despite ordinance change
 
 ## Undercovered Angles
 
-# Undercovered Angles
 
 The archive shows paint branch elementary's Chinese immersion program facing budget threats serious enough to mobilize the city council, yet there's no exploration of how the broader fragility of school funding shapes College Park families' decisions. What other programs hang by similar threads? How many parents calculate public school risk when choosing where to live, and does that calculation differ by income bracket? Paint Branch PTA Secretary Alexandra Tyukavina proposed a third alternative with an opt-out option, but the coverage never follows whether the county board listened, whether the program survived, or what happened to the families who organized around it. The education beat touches College Park constantly — Hollywood Elementary getting shoes from Coca-Cola's bottler, the city backing school bus stop safety upgrades that go ignored — but these appear as isolated moments rather than a sustained look at how residents experience the county's educational bureaucracy from inside city limits.
 
@@ -638,3 +635,5 @@ Status check: Get current vacancy rates, business turnover data, and foot traffi
 - Hyattsville
 - District 3
 - City Hall
+
+

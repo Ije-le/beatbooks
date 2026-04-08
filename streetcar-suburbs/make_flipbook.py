@@ -91,7 +91,9 @@ def split_content_into_pages(content: str, max_chars: int = 2200) -> list[str]:
 
 def md_to_html(text: str) -> str:
     """Convert a subset of markdown to HTML."""
-    # Bold
+    # Lines that are ONLY bold text (e.g. **Name, Title**) become styled entry headers
+    text = re.sub(r"^\*\*([^*]+)\*\*\s*$", r"<p class=\"entry-header\"><strong>\1</strong></p>", text, flags=re.MULTILINE)
+    # Remaining bold inline
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
     # Italic
     text = re.sub(r"\*(.+?)\*", r"<em>\1</em>", text)
@@ -277,6 +279,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   .page-inner::-webkit-scrollbar-thumb {{ background: var(--paper-shadow); border-radius: 2px; }}
 
   .page-inner p {{ margin-bottom: 1em; }}
+  .page-inner p.entry-header {{
+    margin-top: 1.4em;
+    margin-bottom: 0.3em;
+    color: var(--accent);
+    font-size: 1rem;
+    border-bottom: 1px solid #e8d5b0;
+    padding-bottom: 2px;
+  }}
   .page-inner h3 {{ font-size: 1.1rem; color: var(--accent); margin: 1.2em 0 0.5em; }}
   .page-inner h4 {{ font-size: 1rem; color: var(--accent); margin: 1em 0 0.4em; }}
   .page-inner strong {{ color: #1a1a1a; }}
